@@ -1,0 +1,2972 @@
+[
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Cуществительное",
+    "attribute_value_id": "1",
+    "next_attributes": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ]
+  },
+  {
+    "attribute_caption": "Начальная форма",
+    "attribute_id": "2",
+    "attribute_value_caption": "Изменить значение...",
+    "attribute_value_id": "2",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению(А)",
+    "attribute_id": "3",
+    "attribute_value_caption": "Одушевленное",
+    "attribute_value_id": "3",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению(А)",
+    "attribute_id": "3",
+    "attribute_value_caption": "Неодушевленное",
+    "attribute_value_id": "4",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению(А)",
+    "attribute_id": "3",
+    "attribute_value_caption": "Неодушевленное в значении одушевленного",
+    "attribute_value_id": "5",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению(А)",
+    "attribute_id": "3",
+    "attribute_value_caption": "Одушевленное в значении неодушевленного",
+    "attribute_value_id": "6",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению(Б)",
+    "attribute_id": "4",
+    "attribute_value_caption": "Собственное",
+    "attribute_value_id": "7",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению(Б)",
+    "attribute_id": "4",
+    "attribute_value_caption": "Нарицательное",
+    "attribute_value_id": "8",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению(Б)",
+    "attribute_id": "4",
+    "attribute_value_caption": "Собственное в значении нарицательного",
+    "attribute_value_id": "9",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению(Б)",
+    "attribute_id": "4",
+    "attribute_value_caption": "Нарицательное в значении собственного",
+    "attribute_value_id": "10",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению(В)",
+    "attribute_id": "5",
+    "attribute_value_caption": "Конкретное",
+    "attribute_value_id": "11",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению(В)",
+    "attribute_id": "5",
+    "attribute_value_caption": "Абстрактное",
+    "attribute_value_id": "12",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению(В)",
+    "attribute_id": "5",
+    "attribute_value_caption": "Вещественное",
+    "attribute_value_id": "13",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению(В)",
+    "attribute_id": "5",
+    "attribute_value_caption": "Собирательное",
+    "attribute_value_id": "14",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению(В)",
+    "attribute_id": "5",
+    "attribute_value_caption": "Абстрактное в значении конкретного",
+    "attribute_value_id": "15",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению(В)",
+    "attribute_id": "5",
+    "attribute_value_caption": "Конкретное в значении абстрактного",
+    "attribute_value_id": "16",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "6",
+    "attribute_value_caption": "Мужской",
+    "attribute_value_id": "17",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "6",
+    "attribute_value_caption": "Женский",
+    "attribute_value_id": "18",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "6",
+    "attribute_value_caption": "Средний",
+    "attribute_value_id": "19",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "6",
+    "attribute_value_caption": "Общий",
+    "attribute_value_id": "20",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "6",
+    "attribute_value_caption": "Не имеет рода",
+    "attribute_value_id": "21",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "7",
+    "attribute_value_caption": "Единственное",
+    "attribute_value_id": "22",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "7",
+    "attribute_value_caption": "Множественное",
+    "attribute_value_id": "23",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "7",
+    "attribute_value_caption": "Singularia tantum",
+    "attribute_value_id": "24",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "7",
+    "attribute_value_caption": "Pluralia tantum",
+    "attribute_value_id": "25",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа",
+    "attribute_id": "8",
+    "attribute_value_caption": "Именительный",
+    "attribute_value_id": "26",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа",
+    "attribute_id": "8",
+    "attribute_value_caption": "Родительный",
+    "attribute_value_id": "27",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа",
+    "attribute_id": "8",
+    "attribute_value_caption": "Дательный",
+    "attribute_value_id": "28",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа",
+    "attribute_id": "8",
+    "attribute_value_caption": "Винительный",
+    "attribute_value_id": "29",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа",
+    "attribute_id": "8",
+    "attribute_value_caption": "Творительный",
+    "attribute_value_id": "30",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа",
+    "attribute_id": "8",
+    "attribute_value_caption": "Предложный",
+    "attribute_value_id": "31",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Типы склонения",
+    "attribute_id": "9",
+    "attribute_value_caption": "I склонение",
+    "attribute_value_id": "32",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Типы склонения",
+    "attribute_id": "9",
+    "attribute_value_caption": "II склонение",
+    "attribute_value_id": "33",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Типы склонения",
+    "attribute_id": "9",
+    "attribute_value_caption": "III склонение",
+    "attribute_value_id": "34",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Типы склонения",
+    "attribute_id": "9",
+    "attribute_value_caption": "Разносклоняемое",
+    "attribute_value_id": "35",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Типы склонения",
+    "attribute_id": "9",
+    "attribute_value_caption": "Адъективное",
+    "attribute_value_id": "36",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Типы склонения",
+    "attribute_id": "9",
+    "attribute_value_caption": "Несклоняемое",
+    "attribute_value_id": "37",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Типы склонения",
+    "attribute_id": "9",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "38",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Прилагательное",
+    "attribute_value_id": "39",
+    "next_attributes": [
+      "10",
+      "11",
+      "12",
+      "15",
+      "18",
+      "19"
+    ]
+  },
+  {
+    "attribute_caption": "Начальная форма",
+    "attribute_id": "10",
+    "attribute_value_caption": "Изменить значение...",
+    "attribute_value_id": "40",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "11",
+    "attribute_value_caption": "Качественное",
+    "attribute_value_id": "41",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "11",
+    "attribute_value_caption": "Относительное",
+    "attribute_value_id": "42",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "11",
+    "attribute_value_caption": "Притяжательное",
+    "attribute_value_id": "43",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "11",
+    "attribute_value_caption": "Качественно-относительное",
+    "attribute_value_id": "44",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "11",
+    "attribute_value_caption": "Относительно-притяжательное",
+    "attribute_value_id": "45",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "11",
+    "attribute_value_caption": "Предикативное",
+    "attribute_value_id": "46",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По форме",
+    "attribute_id": "12",
+    "attribute_value_caption": "Полное",
+    "attribute_value_id": "47",
+    "next_attributes": [
+      "13",
+      "14"
+    ]
+  },
+  {
+    "attribute_caption": "Категория падежа (зависимая)",
+    "attribute_id": "13",
+    "attribute_value_caption": "Именительный",
+    "attribute_value_id": "48",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа (зависимая)",
+    "attribute_id": "13",
+    "attribute_value_caption": "Родительный",
+    "attribute_value_id": "49",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа (зависимая)",
+    "attribute_id": "13",
+    "attribute_value_caption": "Дательный",
+    "attribute_value_id": "50",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа (зависимая)",
+    "attribute_id": "13",
+    "attribute_value_caption": "Винительный",
+    "attribute_value_id": "51",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа (зависимая)",
+    "attribute_id": "13",
+    "attribute_value_caption": "Творительный",
+    "attribute_value_id": "52",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа (зависимая)",
+    "attribute_id": "13",
+    "attribute_value_caption": "Предложный",
+    "attribute_value_id": "53",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа (зависимая)",
+    "attribute_id": "13",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "54",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Склонение",
+    "attribute_id": "14",
+    "attribute_value_caption": "Адъективное",
+    "attribute_value_id": "55",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Склонение",
+    "attribute_id": "14",
+    "attribute_value_caption": "Субстантивно-адъективное",
+    "attribute_value_id": "56",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Склонение",
+    "attribute_id": "14",
+    "attribute_value_caption": "Несклоняемое",
+    "attribute_value_id": "57",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По форме",
+    "attribute_id": "12",
+    "attribute_value_caption": "Краткое",
+    "attribute_value_id": "58",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По форме",
+    "attribute_id": "12",
+    "attribute_value_caption": "Усеченное",
+    "attribute_value_id": "59",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Степень сравнения",
+    "attribute_id": "15",
+    "attribute_value_caption": "Сравнительная",
+    "attribute_value_id": "60",
+    "next_attributes": [
+      "16"
+    ]
+  },
+  {
+    "attribute_caption": "Способ образования форм степеней сравнения",
+    "attribute_id": "16",
+    "attribute_value_caption": "Синтетический",
+    "attribute_value_id": "61",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Способ образования форм степеней сравнения",
+    "attribute_id": "16",
+    "attribute_value_caption": "Аналитический",
+    "attribute_value_id": "62",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Степень сравнения",
+    "attribute_id": "15",
+    "attribute_value_caption": "Превосходная",
+    "attribute_value_id": "63",
+    "next_attributes": [
+      "17"
+    ]
+  },
+  {
+    "attribute_caption": "Способ образования форм степеней сравнения",
+    "attribute_id": "17",
+    "attribute_value_caption": "Синтетический",
+    "attribute_value_id": "64",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Способ образования форм степеней сравнения",
+    "attribute_id": "17",
+    "attribute_value_caption": "Аналитический",
+    "attribute_value_id": "65",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Степень сравнения",
+    "attribute_id": "15",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "66",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа (зависимая)",
+    "attribute_id": "18",
+    "attribute_value_caption": "Единственное",
+    "attribute_value_id": "67",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа (зависимая)",
+    "attribute_id": "18",
+    "attribute_value_caption": "Множественное",
+    "attribute_value_id": "68",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа (зависимая)",
+    "attribute_id": "18",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "69",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода (зависимая)",
+    "attribute_id": "19",
+    "attribute_value_caption": "Мужской",
+    "attribute_value_id": "70",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода (зависимая)",
+    "attribute_id": "19",
+    "attribute_value_caption": "Женский",
+    "attribute_value_id": "71",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода (зависимая)",
+    "attribute_id": "19",
+    "attribute_value_caption": "Средний",
+    "attribute_value_id": "72",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода (зависимая)",
+    "attribute_id": "19",
+    "attribute_value_caption": "Не имеет рода",
+    "attribute_value_id": "73",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода (зависимая)",
+    "attribute_id": "19",
+    "attribute_value_caption": "Не определяется",
+    "attribute_value_id": "74",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Числительное",
+    "attribute_value_id": "75",
+    "next_attributes": [
+      "20",
+      "21",
+      "23",
+      "24",
+      "25"
+    ]
+  },
+  {
+    "attribute_caption": "Начальная форма",
+    "attribute_id": "20",
+    "attribute_value_caption": "Изменить значение...",
+    "attribute_value_id": "76",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряды по значению",
+    "attribute_id": "21",
+    "attribute_value_caption": "Количественное",
+    "attribute_value_id": "77",
+    "next_attributes": [
+      "22"
+    ]
+  },
+  {
+    "attribute_caption": "По способу образования",
+    "attribute_id": "22",
+    "attribute_value_caption": "Простое",
+    "attribute_value_id": "78",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По способу образования",
+    "attribute_id": "22",
+    "attribute_value_caption": "Сложное",
+    "attribute_value_id": "79",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По способу образования",
+    "attribute_id": "22",
+    "attribute_value_caption": "Часть составного",
+    "attribute_value_id": "80",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По способу образования",
+    "attribute_id": "22",
+    "attribute_value_caption": "Не определяется",
+    "attribute_value_id": "81",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряды по значению",
+    "attribute_id": "21",
+    "attribute_value_caption": "Порядковое",
+    "attribute_value_id": "82",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряды по значению",
+    "attribute_id": "21",
+    "attribute_value_caption": "Собирательное",
+    "attribute_value_id": "83",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряды по значению",
+    "attribute_id": "21",
+    "attribute_value_caption": "Дробное",
+    "attribute_value_id": "84",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряды по значению",
+    "attribute_id": "21",
+    "attribute_value_caption": "Неопределенно-количественное",
+    "attribute_value_id": "85",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "23",
+    "attribute_value_caption": "Мужской",
+    "attribute_value_id": "86",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "23",
+    "attribute_value_caption": "Женский",
+    "attribute_value_id": "87",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "23",
+    "attribute_value_caption": "Средний",
+    "attribute_value_id": "88",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "23",
+    "attribute_value_caption": "Не имеет рода",
+    "attribute_value_id": "89",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "23",
+    "attribute_value_caption": "Не определяется",
+    "attribute_value_id": "90",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "24",
+    "attribute_value_caption": "Единственное",
+    "attribute_value_id": "91",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "24",
+    "attribute_value_caption": "Множественное",
+    "attribute_value_id": "92",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "24",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "93",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Падеж",
+    "attribute_id": "25",
+    "attribute_value_caption": "Именительный",
+    "attribute_value_id": "94",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Падеж",
+    "attribute_id": "25",
+    "attribute_value_caption": "Родительный",
+    "attribute_value_id": "95",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Падеж",
+    "attribute_id": "25",
+    "attribute_value_caption": "Дательный",
+    "attribute_value_id": "96",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Падеж",
+    "attribute_id": "25",
+    "attribute_value_caption": "Винительный",
+    "attribute_value_id": "97",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Падеж",
+    "attribute_id": "25",
+    "attribute_value_caption": "Творительный",
+    "attribute_value_id": "98",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Падеж",
+    "attribute_id": "25",
+    "attribute_value_caption": "Предложный",
+    "attribute_value_id": "99",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Падеж",
+    "attribute_id": "25",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "100",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Местоимение",
+    "attribute_value_id": "101",
+    "next_attributes": [
+      "26",
+      "27"
+    ]
+  },
+  {
+    "attribute_caption": "Начальная форма",
+    "attribute_id": "26",
+    "attribute_value_caption": "Изменить значение...",
+    "attribute_value_id": "102",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Вспомогательная часть сложной степени сравнения",
+    "attribute_id": "27",
+    "attribute_value_caption": "Да",
+    "attribute_value_id": "103",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Вспомогательная часть сложной степени сравнения",
+    "attribute_id": "27",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "104",
+    "next_attributes": [
+      "28",
+      "30",
+      "31",
+      "32",
+      "33"
+    ]
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "28",
+    "attribute_value_caption": "Личное",
+    "attribute_value_id": "105",
+    "next_attributes": [
+      "29"
+    ]
+  },
+  {
+    "attribute_caption": "Категория лица",
+    "attribute_id": "29",
+    "attribute_value_caption": "I",
+    "attribute_value_id": "106",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория лица",
+    "attribute_id": "29",
+    "attribute_value_caption": "II",
+    "attribute_value_id": "107",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория лица",
+    "attribute_id": "29",
+    "attribute_value_caption": "III",
+    "attribute_value_id": "108",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "28",
+    "attribute_value_caption": "Возвратное",
+    "attribute_value_id": "109",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "28",
+    "attribute_value_caption": "Притяжательное",
+    "attribute_value_id": "110",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "28",
+    "attribute_value_caption": "Указательное",
+    "attribute_value_id": "111",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "28",
+    "attribute_value_caption": "Вопросительно-относительное",
+    "attribute_value_id": "112",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "28",
+    "attribute_value_caption": "Определительное",
+    "attribute_value_id": "113",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "28",
+    "attribute_value_caption": "Отрицательное",
+    "attribute_value_id": "114",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "28",
+    "attribute_value_caption": "Неопределенное",
+    "attribute_value_id": "115",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По соотносительности с др. ч. р.",
+    "attribute_id": "30",
+    "attribute_value_caption": "Обобщенно-предметное",
+    "attribute_value_id": "116",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По соотносительности с др. ч. р.",
+    "attribute_id": "30",
+    "attribute_value_caption": "Обобщенно-качественное",
+    "attribute_value_id": "117",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По соотносительности с др. ч. р.",
+    "attribute_id": "30",
+    "attribute_value_caption": "Обобщенно-количественное",
+    "attribute_value_id": "118",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По соотносительности с др. ч. р.",
+    "attribute_id": "30",
+    "attribute_value_caption": "Несоотносимое",
+    "attribute_value_id": "119",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "31",
+    "attribute_value_caption": "Мужской",
+    "attribute_value_id": "120",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "31",
+    "attribute_value_caption": "Женский",
+    "attribute_value_id": "121",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "31",
+    "attribute_value_caption": "Средний",
+    "attribute_value_id": "122",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "31",
+    "attribute_value_caption": "Не имеет рода",
+    "attribute_value_id": "123",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "31",
+    "attribute_value_caption": "Не определяется",
+    "attribute_value_id": "124",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "32",
+    "attribute_value_caption": "Единственное",
+    "attribute_value_id": "125",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "32",
+    "attribute_value_caption": "Множественное",
+    "attribute_value_id": "126",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "32",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "127",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Падеж",
+    "attribute_id": "33",
+    "attribute_value_caption": "Именительный",
+    "attribute_value_id": "128",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Падеж",
+    "attribute_id": "33",
+    "attribute_value_caption": "Родительный",
+    "attribute_value_id": "129",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Падеж",
+    "attribute_id": "33",
+    "attribute_value_caption": "Дательный",
+    "attribute_value_id": "130",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Падеж",
+    "attribute_id": "33",
+    "attribute_value_caption": "Винительный",
+    "attribute_value_id": "131",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Падеж",
+    "attribute_id": "33",
+    "attribute_value_caption": "Творительный",
+    "attribute_value_id": "132",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Падеж",
+    "attribute_id": "33",
+    "attribute_value_caption": "Предложный",
+    "attribute_value_id": "133",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Падеж",
+    "attribute_id": "33",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "134",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Глагол",
+    "attribute_value_id": "135",
+    "next_attributes": [
+      "34",
+      "35"
+    ]
+  },
+  {
+    "attribute_caption": "Начальная форма",
+    "attribute_id": "34",
+    "attribute_value_caption": "Изменить значение...",
+    "attribute_value_id": "136",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Отвлеченный глагол-связка",
+    "attribute_id": "35",
+    "attribute_value_caption": "Да",
+    "attribute_value_id": "137",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Отвлеченный глагол-связка",
+    "attribute_id": "35",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "138",
+    "next_attributes": [
+      "36"
+    ]
+  },
+  {
+    "attribute_caption": "Полуотвлеченный глагол",
+    "attribute_id": "36",
+    "attribute_value_caption": "Да",
+    "attribute_value_id": "139",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Полуотвлеченный глагол",
+    "attribute_id": "36",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "140",
+    "next_attributes": [
+      "37",
+      "38",
+      "62",
+      "63",
+      "64",
+      "65"
+    ]
+  },
+  {
+    "attribute_caption": "Часть сложной формы времени",
+    "attribute_id": "37",
+    "attribute_value_caption": "Да",
+    "attribute_value_id": "141",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть сложной формы времени",
+    "attribute_id": "37",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "142",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Инфинитив",
+    "attribute_id": "38",
+    "attribute_value_caption": "Да",
+    "attribute_value_id": "143",
+    "next_attributes": [
+      "39"
+    ]
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "39",
+    "attribute_value_caption": "Изъявительное",
+    "attribute_value_id": "144",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "39",
+    "attribute_value_caption": "Сослагательное",
+    "attribute_value_id": "145",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "39",
+    "attribute_value_caption": "Повелительное",
+    "attribute_value_id": "146",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Инфинитив",
+    "attribute_id": "38",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "147",
+    "next_attributes": [
+      "40",
+      "60",
+      "61"
+    ]
+  },
+  {
+    "attribute_caption": "Категория времени",
+    "attribute_id": "40",
+    "attribute_value_caption": "Настоящее",
+    "attribute_value_id": "148",
+    "next_attributes": [
+      "41"
+    ]
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "41",
+    "attribute_value_caption": "Изъявительное",
+    "attribute_value_id": "149",
+    "next_attributes": [
+      "42"
+    ]
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "42",
+    "attribute_value_caption": "Единственное",
+    "attribute_value_id": "150",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "42",
+    "attribute_value_caption": "Множественное",
+    "attribute_value_id": "151",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "42",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "152",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "41",
+    "attribute_value_caption": "Сослагательное",
+    "attribute_value_id": "153",
+    "next_attributes": [
+      "43"
+    ]
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "43",
+    "attribute_value_caption": "Единственное",
+    "attribute_value_id": "154",
+    "next_attributes": [
+      "44"
+    ]
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "44",
+    "attribute_value_caption": "Мужской",
+    "attribute_value_id": "155",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "44",
+    "attribute_value_caption": "Женский",
+    "attribute_value_id": "156",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "44",
+    "attribute_value_caption": "Средний",
+    "attribute_value_id": "157",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "44",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "158",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "43",
+    "attribute_value_caption": "Множественное",
+    "attribute_value_id": "159",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "43",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "160",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "41",
+    "attribute_value_caption": "Повелительное",
+    "attribute_value_id": "161",
+    "next_attributes": [
+      "45"
+    ]
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "45",
+    "attribute_value_caption": "Единственное",
+    "attribute_value_id": "162",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "45",
+    "attribute_value_caption": "Множественное",
+    "attribute_value_id": "163",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "45",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "164",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория времени",
+    "attribute_id": "40",
+    "attribute_value_caption": "Прошедшее",
+    "attribute_value_id": "165",
+    "next_attributes": [
+      "46",
+      "47",
+      "48"
+    ]
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "46",
+    "attribute_value_caption": "Изъявительное",
+    "attribute_value_id": "166",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "46",
+    "attribute_value_caption": "Сослагательное",
+    "attribute_value_id": "167",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "46",
+    "attribute_value_caption": "Повелительное",
+    "attribute_value_id": "168",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "47",
+    "attribute_value_caption": "Единственное",
+    "attribute_value_id": "169",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "47",
+    "attribute_value_caption": "Множественное",
+    "attribute_value_id": "170",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "47",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "171",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "48",
+    "attribute_value_caption": "Мужской",
+    "attribute_value_id": "172",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "48",
+    "attribute_value_caption": "Женский",
+    "attribute_value_id": "173",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "48",
+    "attribute_value_caption": "Средний",
+    "attribute_value_id": "174",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "48",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "175",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория времени",
+    "attribute_id": "40",
+    "attribute_value_caption": "Будущее простое",
+    "attribute_value_id": "176",
+    "next_attributes": [
+      "49"
+    ]
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "49",
+    "attribute_value_caption": "Изъявительное",
+    "attribute_value_id": "177",
+    "next_attributes": [
+      "50"
+    ]
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "50",
+    "attribute_value_caption": "Единственное",
+    "attribute_value_id": "178",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "50",
+    "attribute_value_caption": "Множественное",
+    "attribute_value_id": "179",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "50",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "180",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "49",
+    "attribute_value_caption": "Сослагательное",
+    "attribute_value_id": "181",
+    "next_attributes": [
+      "51"
+    ]
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "51",
+    "attribute_value_caption": "Единственное",
+    "attribute_value_id": "182",
+    "next_attributes": [
+      "52"
+    ]
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "52",
+    "attribute_value_caption": "Мужской",
+    "attribute_value_id": "183",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "52",
+    "attribute_value_caption": "Женский",
+    "attribute_value_id": "184",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "52",
+    "attribute_value_caption": "Средний",
+    "attribute_value_id": "185",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "52",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "186",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "51",
+    "attribute_value_caption": "Множественное",
+    "attribute_value_id": "187",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "51",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "188",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "49",
+    "attribute_value_caption": "Повелительное",
+    "attribute_value_id": "189",
+    "next_attributes": [
+      "53"
+    ]
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "53",
+    "attribute_value_caption": "Единственное",
+    "attribute_value_id": "190",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "53",
+    "attribute_value_caption": "Множественное",
+    "attribute_value_id": "191",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "53",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "192",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория времени",
+    "attribute_id": "40",
+    "attribute_value_caption": "Будущее сложное",
+    "attribute_value_id": "193",
+    "next_attributes": [
+      "54"
+    ]
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "54",
+    "attribute_value_caption": "Изъявительное",
+    "attribute_value_id": "194",
+    "next_attributes": [
+      "55"
+    ]
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "55",
+    "attribute_value_caption": "Единственное",
+    "attribute_value_id": "195",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "55",
+    "attribute_value_caption": "Множественное",
+    "attribute_value_id": "196",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "55",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "197",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "54",
+    "attribute_value_caption": "Сослагательное",
+    "attribute_value_id": "198",
+    "next_attributes": [
+      "56"
+    ]
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "56",
+    "attribute_value_caption": "Единственное",
+    "attribute_value_id": "199",
+    "next_attributes": [
+      "57"
+    ]
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "57",
+    "attribute_value_caption": "Мужской",
+    "attribute_value_id": "200",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "57",
+    "attribute_value_caption": "Женский",
+    "attribute_value_id": "201",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "57",
+    "attribute_value_caption": "Средний",
+    "attribute_value_id": "202",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода",
+    "attribute_id": "57",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "203",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "56",
+    "attribute_value_caption": "Множественное",
+    "attribute_value_id": "204",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "56",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "205",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "54",
+    "attribute_value_caption": "Повелительное",
+    "attribute_value_id": "206",
+    "next_attributes": [
+      "58"
+    ]
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "58",
+    "attribute_value_caption": "Единственное",
+    "attribute_value_id": "207",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "58",
+    "attribute_value_caption": "Множественное",
+    "attribute_value_id": "208",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа",
+    "attribute_id": "58",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "209",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория времени",
+    "attribute_id": "40",
+    "attribute_value_caption": "Не определяется",
+    "attribute_value_id": "210",
+    "next_attributes": [
+      "59"
+    ]
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "59",
+    "attribute_value_caption": "Изъявительное",
+    "attribute_value_id": "211",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "59",
+    "attribute_value_caption": "Сослагательное",
+    "attribute_value_id": "212",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория наклонения",
+    "attribute_id": "59",
+    "attribute_value_caption": "Повелительное",
+    "attribute_value_id": "213",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория лица",
+    "attribute_id": "60",
+    "attribute_value_caption": "I",
+    "attribute_value_id": "214",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория лица",
+    "attribute_id": "60",
+    "attribute_value_caption": "II",
+    "attribute_value_id": "215",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория лица",
+    "attribute_id": "60",
+    "attribute_value_caption": "III",
+    "attribute_value_id": "216",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория лица",
+    "attribute_id": "60",
+    "attribute_value_caption": "Безличный",
+    "attribute_value_id": "217",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория лица",
+    "attribute_id": "60",
+    "attribute_value_caption": "Неопределенно-личный",
+    "attribute_value_id": "218",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория лица",
+    "attribute_id": "60",
+    "attribute_value_caption": "Обобщенно-личный",
+    "attribute_value_id": "219",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория лица",
+    "attribute_id": "60",
+    "attribute_value_caption": "Не определяется",
+    "attribute_value_id": "220",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Типы спряжения глаголов",
+    "attribute_id": "61",
+    "attribute_value_caption": "I спряжение",
+    "attribute_value_id": "221",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Типы спряжения глаголов",
+    "attribute_id": "61",
+    "attribute_value_caption": "II спряжение",
+    "attribute_value_id": "222",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Типы спряжения глаголов",
+    "attribute_id": "61",
+    "attribute_value_caption": "Разноспрягаемый",
+    "attribute_value_id": "223",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Типы спряжения глаголов",
+    "attribute_id": "61",
+    "attribute_value_caption": "Неспрягаемый",
+    "attribute_value_id": "224",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Типы спряжения глаголов",
+    "attribute_id": "61",
+    "attribute_value_caption": "Не определяется",
+    "attribute_value_id": "225",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория вида",
+    "attribute_id": "62",
+    "attribute_value_caption": "Совершенный",
+    "attribute_value_id": "226",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория вида",
+    "attribute_id": "62",
+    "attribute_value_caption": "Несовершенный",
+    "attribute_value_id": "227",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория вида",
+    "attribute_id": "62",
+    "attribute_value_caption": "Не определяется",
+    "attribute_value_id": "228",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По отношению к объекту действия",
+    "attribute_id": "63",
+    "attribute_value_caption": "Переходный",
+    "attribute_value_id": "229",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По отношению к объекту действия",
+    "attribute_id": "63",
+    "attribute_value_caption": "Непереходный",
+    "attribute_value_id": "230",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По отношению к субъекту действия",
+    "attribute_id": "64",
+    "attribute_value_caption": "Возвратный",
+    "attribute_value_id": "231",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По отношению к субъекту действия",
+    "attribute_id": "64",
+    "attribute_value_caption": "Невозвратный",
+    "attribute_value_id": "232",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория залога (по бинарной теории)",
+    "attribute_id": "65",
+    "attribute_value_caption": "Действительный",
+    "attribute_value_id": "233",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория залога (по бинарной теории)",
+    "attribute_id": "65",
+    "attribute_value_caption": "Страдательный",
+    "attribute_value_id": "234",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Причастие",
+    "attribute_value_id": "235",
+    "next_attributes": [
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75"
+    ]
+  },
+  {
+    "attribute_caption": "Начальная форма",
+    "attribute_id": "66",
+    "attribute_value_caption": "Изменить значение...",
+    "attribute_value_id": "236",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория вида",
+    "attribute_id": "67",
+    "attribute_value_caption": "Совершенный",
+    "attribute_value_id": "237",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория вида",
+    "attribute_id": "67",
+    "attribute_value_caption": "Несовершенный",
+    "attribute_value_id": "238",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория залога",
+    "attribute_id": "68",
+    "attribute_value_caption": "Действительное",
+    "attribute_value_id": "239",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория залога",
+    "attribute_id": "68",
+    "attribute_value_caption": "Страдательное",
+    "attribute_value_id": "240",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория времени",
+    "attribute_id": "69",
+    "attribute_value_caption": "Настоящее",
+    "attribute_value_id": "241",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория времени",
+    "attribute_id": "69",
+    "attribute_value_caption": "Прошедшее",
+    "attribute_value_id": "242",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Форма причастия",
+    "attribute_id": "70",
+    "attribute_value_caption": "Полная",
+    "attribute_value_id": "243",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Форма причастия",
+    "attribute_id": "70",
+    "attribute_value_caption": "Краткая",
+    "attribute_value_id": "244",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода (зависимая)",
+    "attribute_id": "71",
+    "attribute_value_caption": "Мужской",
+    "attribute_value_id": "245",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода (зависимая)",
+    "attribute_id": "71",
+    "attribute_value_caption": "Женский",
+    "attribute_value_id": "246",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода (зависимая)",
+    "attribute_id": "71",
+    "attribute_value_caption": "Средний",
+    "attribute_value_id": "247",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода (зависимая)",
+    "attribute_id": "71",
+    "attribute_value_caption": "Не имеет рода",
+    "attribute_value_id": "248",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория рода (зависимая)",
+    "attribute_id": "71",
+    "attribute_value_caption": "Не определяется",
+    "attribute_value_id": "249",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа (зависимая)",
+    "attribute_id": "72",
+    "attribute_value_caption": "Единственное",
+    "attribute_value_id": "250",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа (зависимая)",
+    "attribute_id": "72",
+    "attribute_value_caption": "Множественное",
+    "attribute_value_id": "251",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория числа (зависимая)",
+    "attribute_id": "72",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "252",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа (зависимая)",
+    "attribute_id": "73",
+    "attribute_value_caption": "Именительный",
+    "attribute_value_id": "253",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа (зависимая)",
+    "attribute_id": "73",
+    "attribute_value_caption": "Родительный",
+    "attribute_value_id": "254",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа (зависимая)",
+    "attribute_id": "73",
+    "attribute_value_caption": "Дательный",
+    "attribute_value_id": "255",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа (зависимая)",
+    "attribute_id": "73",
+    "attribute_value_caption": "Винительный",
+    "attribute_value_id": "256",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа (зависимая)",
+    "attribute_id": "73",
+    "attribute_value_caption": "Творительный",
+    "attribute_value_id": "257",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа (зависимая)",
+    "attribute_id": "73",
+    "attribute_value_caption": "Предложный",
+    "attribute_value_id": "258",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория падежа (зависимая)",
+    "attribute_id": "73",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "259",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По отношению к объекту",
+    "attribute_id": "74",
+    "attribute_value_caption": "Переходное",
+    "attribute_value_id": "260",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По отношению к объекту",
+    "attribute_id": "74",
+    "attribute_value_caption": "Непереходное",
+    "attribute_value_id": "261",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По отношению к субъекту",
+    "attribute_id": "75",
+    "attribute_value_caption": "Невозвратное",
+    "attribute_value_id": "262",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По отношению к субъекту",
+    "attribute_id": "75",
+    "attribute_value_caption": "Возвратное",
+    "attribute_value_id": "263",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Деепричастие",
+    "attribute_value_id": "264",
+    "next_attributes": [
+      "76",
+      "77",
+      "78",
+      "79",
+      "80"
+    ]
+  },
+  {
+    "attribute_caption": "Начальная форма",
+    "attribute_id": "76",
+    "attribute_value_caption": "Изменить значение...",
+    "attribute_value_id": "265",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория вида",
+    "attribute_id": "77",
+    "attribute_value_caption": "Совершенный",
+    "attribute_value_id": "266",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория вида",
+    "attribute_id": "77",
+    "attribute_value_caption": "Несовершенный",
+    "attribute_value_id": "267",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Форма деепричастия",
+    "attribute_id": "78",
+    "attribute_value_caption": "Возвратное",
+    "attribute_value_id": "268",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Форма деепричастия",
+    "attribute_id": "78",
+    "attribute_value_caption": "Невозвратное",
+    "attribute_value_id": "269",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория относ. обозн. времени",
+    "attribute_id": "79",
+    "attribute_value_caption": "Одновременное с действием глагола-сказуемого",
+    "attribute_value_id": "270",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория относ. обозн. времени",
+    "attribute_id": "79",
+    "attribute_value_caption": "Предшествующее действию глагола-сказуемого",
+    "attribute_value_id": "271",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Категория относ. обозн. времени",
+    "attribute_id": "79",
+    "attribute_value_caption": "Последующее за действием глагола-сказуемого",
+    "attribute_value_id": "272",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По отношению к объекту действия",
+    "attribute_id": "80",
+    "attribute_value_caption": "Переходное",
+    "attribute_value_id": "273",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По отношению к объекту действия",
+    "attribute_id": "80",
+    "attribute_value_caption": "Непереходное",
+    "attribute_value_id": "274",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Наречие",
+    "attribute_value_id": "275",
+    "next_attributes": [
+      "81",
+      "82"
+    ]
+  },
+  {
+    "attribute_caption": "Начальная форма",
+    "attribute_id": "81",
+    "attribute_value_caption": "Изменить значение...",
+    "attribute_value_id": "276",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Вспомогательная часть сложной степени сравнения",
+    "attribute_id": "82",
+    "attribute_value_caption": "Да",
+    "attribute_value_id": "277",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Вспомогательная часть сложной степени сравнения",
+    "attribute_id": "82",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "278",
+    "next_attributes": [
+      "83",
+      "84"
+    ]
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "83",
+    "attribute_value_caption": "Определительное качественное",
+    "attribute_value_id": "279",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "83",
+    "attribute_value_caption": "Определительное количественное",
+    "attribute_value_id": "280",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "83",
+    "attribute_value_caption": "Определительное сравнительно-уподобительное",
+    "attribute_value_id": "281",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "83",
+    "attribute_value_caption": "Определительное способа и образа действия",
+    "attribute_value_id": "282",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "83",
+    "attribute_value_caption": "Обстоятельственное места",
+    "attribute_value_id": "283",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "83",
+    "attribute_value_caption": "Обстоятельственное времени",
+    "attribute_value_id": "284",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "83",
+    "attribute_value_caption": "Обстоятельственное причины",
+    "attribute_value_id": "285",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "83",
+    "attribute_value_caption": "Обстоятельственное цели",
+    "attribute_value_id": "286",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Изменяемость",
+    "attribute_id": "84",
+    "attribute_value_caption": "Изменяемое",
+    "attribute_value_id": "287",
+    "next_attributes": [
+      "85"
+    ]
+  },
+  {
+    "attribute_caption": "Степень сравнения",
+    "attribute_id": "85",
+    "attribute_value_caption": "Сравнительная",
+    "attribute_value_id": "288",
+    "next_attributes": [
+      "86"
+    ]
+  },
+  {
+    "attribute_caption": "Способ образования степени сравнения",
+    "attribute_id": "86",
+    "attribute_value_caption": "Простая",
+    "attribute_value_id": "289",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Способ образования степени сравнения",
+    "attribute_id": "86",
+    "attribute_value_caption": "Сложная",
+    "attribute_value_id": "290",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Степень сравнения",
+    "attribute_id": "85",
+    "attribute_value_caption": "Превосходная",
+    "attribute_value_id": "291",
+    "next_attributes": [
+      "87"
+    ]
+  },
+  {
+    "attribute_caption": "Способ образования степени сравнения",
+    "attribute_id": "87",
+    "attribute_value_caption": "Простая",
+    "attribute_value_id": "292",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Способ образования степени сравнения",
+    "attribute_id": "87",
+    "attribute_value_caption": "Сложная",
+    "attribute_value_id": "293",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Степень сравнения",
+    "attribute_id": "85",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "294",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Изменяемость",
+    "attribute_id": "84",
+    "attribute_value_caption": "Неизменяемое",
+    "attribute_value_id": "295",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Категория состояния",
+    "attribute_value_id": "296",
+    "next_attributes": [
+      "88",
+      "89"
+    ]
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "88",
+    "attribute_value_caption": "Состояние природы",
+    "attribute_value_id": "297",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "88",
+    "attribute_value_caption": "Физическое и психическое состояние",
+    "attribute_value_id": "298",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "88",
+    "attribute_value_caption": "Эмоциональная оценка",
+    "attribute_value_id": "299",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "88",
+    "attribute_value_caption": "Модальная окраска",
+    "attribute_value_id": "300",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "88",
+    "attribute_value_caption": "Другие",
+    "attribute_value_id": "301",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Степень сравнения",
+    "attribute_id": "89",
+    "attribute_value_caption": "Сравнительная",
+    "attribute_value_id": "302",
+    "next_attributes": [
+      "90"
+    ]
+  },
+  {
+    "attribute_caption": "Способ образования степени сравнения",
+    "attribute_id": "90",
+    "attribute_value_caption": "Простая",
+    "attribute_value_id": "303",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Способ образования степени сравнения",
+    "attribute_id": "90",
+    "attribute_value_caption": "Сложная",
+    "attribute_value_id": "304",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Степень сравнения",
+    "attribute_id": "89",
+    "attribute_value_caption": "Превосходная",
+    "attribute_value_id": "305",
+    "next_attributes": [
+      "91"
+    ]
+  },
+  {
+    "attribute_caption": "Способ образования степени сравнения",
+    "attribute_id": "91",
+    "attribute_value_caption": "Простая",
+    "attribute_value_id": "306",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Способ образования степени сравнения",
+    "attribute_id": "91",
+    "attribute_value_caption": "Сложная",
+    "attribute_value_id": "307",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Степень сравнения",
+    "attribute_id": "89",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "308",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Частица",
+    "attribute_value_id": "309",
+    "next_attributes": [
+      "92",
+      "95",
+      "96"
+    ]
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "92",
+    "attribute_value_caption": "Смысловая",
+    "attribute_value_id": "310",
+    "next_attributes": [
+      "93"
+    ]
+  },
+  {
+    "attribute_caption": "Классификация смысловых частиц",
+    "attribute_id": "93",
+    "attribute_value_caption": "Указательная",
+    "attribute_value_id": "311",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Классификация смысловых частиц",
+    "attribute_id": "93",
+    "attribute_value_caption": "Определительно-уточняющая",
+    "attribute_value_id": "312",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Классификация смысловых частиц",
+    "attribute_id": "93",
+    "attribute_value_caption": "Выделительно-ограничительная",
+    "attribute_value_id": "313",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "92",
+    "attribute_value_caption": "Модальная",
+    "attribute_value_id": "314",
+    "next_attributes": [
+      "94"
+    ]
+  },
+  {
+    "attribute_caption": "Классификация модальных частиц",
+    "attribute_id": "94",
+    "attribute_value_caption": "Утвердительная",
+    "attribute_value_id": "315",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Классификация модальных частиц",
+    "attribute_id": "94",
+    "attribute_value_caption": "Отрицательная",
+    "attribute_value_id": "316",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Классификация модальных частиц",
+    "attribute_id": "94",
+    "attribute_value_caption": "Вопросительная",
+    "attribute_value_id": "317",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Классификация модальных частиц",
+    "attribute_id": "94",
+    "attribute_value_caption": "Сравнительная",
+    "attribute_value_id": "318",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Классификация модальных частиц",
+    "attribute_id": "94",
+    "attribute_value_caption": "Собственно-модальная",
+    "attribute_value_id": "319",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Классификация модальных частиц",
+    "attribute_id": "94",
+    "attribute_value_caption": "Другие",
+    "attribute_value_id": "320",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "92",
+    "attribute_value_caption": "Эмоционально-экспрессивная",
+    "attribute_value_id": "321",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "92",
+    "attribute_value_caption": "Другая",
+    "attribute_value_id": "322",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По образованию",
+    "attribute_id": "95",
+    "attribute_value_caption": "Первичная",
+    "attribute_value_id": "323",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По образованию",
+    "attribute_id": "95",
+    "attribute_value_caption": "Производная",
+    "attribute_value_id": "324",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По грамматической функции",
+    "attribute_id": "96",
+    "attribute_value_caption": "Формообразующая",
+    "attribute_value_id": "325",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По грамматической функции",
+    "attribute_id": "96",
+    "attribute_value_caption": "Словообразующая",
+    "attribute_value_id": "326",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По грамматической функции",
+    "attribute_id": "96",
+    "attribute_value_caption": "Нет",
+    "attribute_value_id": "327",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Предлог",
+    "attribute_value_id": "328",
+    "next_attributes": [
+      "97",
+      "99"
+    ]
+  },
+  {
+    "attribute_caption": "По составу",
+    "attribute_id": "97",
+    "attribute_value_caption": "Производный",
+    "attribute_value_id": "329",
+    "next_attributes": [
+      "98"
+    ]
+  },
+  {
+    "attribute_caption": "Классификация производных предлогов",
+    "attribute_id": "98",
+    "attribute_value_caption": "Наречный",
+    "attribute_value_id": "330",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Классификация производных предлогов",
+    "attribute_id": "98",
+    "attribute_value_caption": "Отыменный",
+    "attribute_value_id": "331",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Классификация производных предлогов",
+    "attribute_id": "98",
+    "attribute_value_caption": "Отглагольный",
+    "attribute_value_id": "332",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По составу",
+    "attribute_id": "97",
+    "attribute_value_caption": "Непроизводный",
+    "attribute_value_id": "333",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По составу",
+    "attribute_id": "97",
+    "attribute_value_caption": "Часть производного",
+    "attribute_value_id": "334",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Значения предлогов",
+    "attribute_id": "99",
+    "attribute_value_caption": "Временной",
+    "attribute_value_id": "335",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Значения предлогов",
+    "attribute_id": "99",
+    "attribute_value_caption": "Пространственный",
+    "attribute_value_id": "336",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Значения предлогов",
+    "attribute_id": "99",
+    "attribute_value_caption": "Целевой",
+    "attribute_value_id": "337",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Значения предлогов",
+    "attribute_id": "99",
+    "attribute_value_caption": "Причинный",
+    "attribute_value_id": "338",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Значения предлогов",
+    "attribute_id": "99",
+    "attribute_value_caption": "Объектный",
+    "attribute_value_id": "339",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Значения предлогов",
+    "attribute_id": "99",
+    "attribute_value_caption": "Сравнительный",
+    "attribute_value_id": "340",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Значения предлогов",
+    "attribute_id": "99",
+    "attribute_value_caption": "Сопроводительный",
+    "attribute_value_id": "341",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Значения предлогов",
+    "attribute_id": "99",
+    "attribute_value_caption": "Условия",
+    "attribute_value_id": "342",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Значения предлогов",
+    "attribute_id": "99",
+    "attribute_value_caption": "Уступки",
+    "attribute_value_id": "343",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Значения предлогов",
+    "attribute_id": "99",
+    "attribute_value_caption": "Образа действия",
+    "attribute_value_id": "344",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Значения предлогов",
+    "attribute_id": "99",
+    "attribute_value_caption": "Удаления",
+    "attribute_value_id": "345",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Значения предлогов",
+    "attribute_id": "99",
+    "attribute_value_caption": "Другой",
+    "attribute_value_id": "346",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Союз",
+    "attribute_value_id": "347",
+    "next_attributes": [
+      "100",
+      "101",
+      "102"
+    ]
+  },
+  {
+    "attribute_caption": "По составу",
+    "attribute_id": "100",
+    "attribute_value_caption": "Простой",
+    "attribute_value_id": "348",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По составу",
+    "attribute_id": "100",
+    "attribute_value_caption": "Часть составного союза",
+    "attribute_value_id": "349",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По употреблению",
+    "attribute_id": "101",
+    "attribute_value_caption": "Одиночный",
+    "attribute_value_id": "350",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По употреблению",
+    "attribute_id": "101",
+    "attribute_value_caption": "Двойной",
+    "attribute_value_id": "351",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По употреблению",
+    "attribute_id": "101",
+    "attribute_value_caption": "Повторяющийся",
+    "attribute_value_id": "352",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По синтаксической функции",
+    "attribute_id": "102",
+    "attribute_value_caption": "Сочинительный",
+    "attribute_value_id": "353",
+    "next_attributes": [
+      "103"
+    ]
+  },
+  {
+    "attribute_caption": "Разряд",
+    "attribute_id": "103",
+    "attribute_value_caption": "Соединительный",
+    "attribute_value_id": "354",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд",
+    "attribute_id": "103",
+    "attribute_value_caption": "Сопоставительный",
+    "attribute_value_id": "355",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд",
+    "attribute_id": "103",
+    "attribute_value_caption": "Противительный",
+    "attribute_value_id": "356",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд",
+    "attribute_id": "103",
+    "attribute_value_caption": "Разделительный",
+    "attribute_value_id": "357",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд",
+    "attribute_id": "103",
+    "attribute_value_caption": "Присоединительный",
+    "attribute_value_id": "358",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд",
+    "attribute_id": "103",
+    "attribute_value_caption": "Пояснительный",
+    "attribute_value_id": "359",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По синтаксической функции",
+    "attribute_id": "102",
+    "attribute_value_caption": "Подчинительный",
+    "attribute_value_id": "360",
+    "next_attributes": [
+      "104"
+    ]
+  },
+  {
+    "attribute_caption": "Разряд",
+    "attribute_id": "104",
+    "attribute_value_caption": "Временной",
+    "attribute_value_id": "361",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд",
+    "attribute_id": "104",
+    "attribute_value_caption": "Причинный",
+    "attribute_value_id": "362",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд",
+    "attribute_id": "104",
+    "attribute_value_caption": "Целевой",
+    "attribute_value_id": "363",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд",
+    "attribute_id": "104",
+    "attribute_value_caption": "Следствия",
+    "attribute_value_id": "364",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд",
+    "attribute_id": "104",
+    "attribute_value_caption": "Уступки",
+    "attribute_value_id": "365",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд",
+    "attribute_id": "104",
+    "attribute_value_caption": "Сравнительный",
+    "attribute_value_id": "366",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд",
+    "attribute_id": "104",
+    "attribute_value_caption": "Изъяснительный",
+    "attribute_value_id": "367",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд",
+    "attribute_id": "104",
+    "attribute_value_caption": "Условия",
+    "attribute_value_id": "368",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По синтаксической функции",
+    "attribute_id": "102",
+    "attribute_value_caption": "Подчинительный в значении сочинительного",
+    "attribute_value_id": "369",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Модальное слово",
+    "attribute_value_id": "370",
+    "next_attributes": [
+      "105",
+      "106"
+    ]
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "105",
+    "attribute_value_caption": "Выражающее уверенность",
+    "attribute_value_id": "371",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Разряд по значению",
+    "attribute_id": "105",
+    "attribute_value_caption": "Выражающее неуверенность",
+    "attribute_value_id": "372",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Синтаксическая роль",
+    "attribute_id": "106",
+    "attribute_value_caption": "Вводное слово",
+    "attribute_value_id": "373",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Синтаксическая роль",
+    "attribute_id": "106",
+    "attribute_value_caption": "Слово-предложение",
+    "attribute_value_id": "374",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Междометие",
+    "attribute_value_id": "375",
+    "next_attributes": [
+      "107",
+      "108"
+    ]
+  },
+  {
+    "attribute_caption": "По образованию",
+    "attribute_id": "107",
+    "attribute_value_caption": "Производное",
+    "attribute_value_id": "376",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По образованию",
+    "attribute_id": "107",
+    "attribute_value_caption": "Первообразное",
+    "attribute_value_id": "377",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По образованию",
+    "attribute_id": "107",
+    "attribute_value_caption": "Заимствованное",
+    "attribute_value_id": "378",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По образованию",
+    "attribute_id": "107",
+    "attribute_value_caption": "Часть фразеологизма",
+    "attribute_value_id": "379",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По значению",
+    "attribute_id": "108",
+    "attribute_value_caption": "Эмоциональное",
+    "attribute_value_id": "380",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По значению",
+    "attribute_id": "108",
+    "attribute_value_caption": "Императивное",
+    "attribute_value_id": "381",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "По значению",
+    "attribute_id": "108",
+    "attribute_value_caption": "Форма этикета",
+    "attribute_value_id": "382",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Звукоподражательное слово",
+    "attribute_value_id": "383",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Иностранное слово",
+    "attribute_value_id": "384",
+    "next_attributes": [
+      "109"
+    ]
+  },
+  {
+    "attribute_caption": "Язык",
+    "attribute_id": "109",
+    "attribute_value_caption": "Французский",
+    "attribute_value_id": "385",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Язык",
+    "attribute_id": "109",
+    "attribute_value_caption": "Английский",
+    "attribute_value_id": "386",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Язык",
+    "attribute_id": "109",
+    "attribute_value_caption": "Немецкий",
+    "attribute_value_id": "387",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Язык",
+    "attribute_id": "109",
+    "attribute_value_caption": "Латинский",
+    "attribute_value_id": "388",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Язык",
+    "attribute_id": "109",
+    "attribute_value_caption": "Итальянский",
+    "attribute_value_id": "389",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Язык",
+    "attribute_id": "109",
+    "attribute_value_caption": "Польский",
+    "attribute_value_id": "390",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Язык",
+    "attribute_id": "109",
+    "attribute_value_caption": "Греческий",
+    "attribute_value_id": "391",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Язык",
+    "attribute_id": "109",
+    "attribute_value_caption": "Другой",
+    "attribute_value_id": "392",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Цитата",
+    "attribute_value_id": "393",
+    "next_attributes": [
+      "110"
+    ]
+  },
+  {
+    "attribute_caption": "Вид цитаты",
+    "attribute_id": "110",
+    "attribute_value_caption": "Прозаическая",
+    "attribute_value_id": "394",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Вид цитаты",
+    "attribute_id": "110",
+    "attribute_value_caption": "Стихотворная",
+    "attribute_value_id": "395",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Вводное слово",
+    "attribute_value_id": "396",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Старославянизм",
+    "attribute_value_id": "397",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Часть фразеологизма",
+    "attribute_value_id": "398",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Неязыковой символ",
+    "attribute_value_id": "399",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Сокращенное слово",
+    "attribute_value_id": "400",
+    "next_attributes": []
+  },
+  {
+    "attribute_caption": "Часть речи",
+    "attribute_id": "1",
+    "attribute_value_caption": "Часть многочленного названия",
+    "attribute_value_id": "401",
+    "next_attributes": []
+  }
+]

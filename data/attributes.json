@@ -1,0 +1,3341 @@
+{
+ "1": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "1",
+  "attribute_name": "\u0427\u0430\u0441\u0442\u044c \u0440\u0435\u0447\u0438",
+  "attribute_values": {
+   "1": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "1",
+    "attribute_value_name": "C\u0443\u0449\u0435\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": [
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9"
+    ]
+   },
+   "39": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "39",
+    "attribute_value_name": "\u041f\u0440\u0438\u043b\u0430\u0433\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": [
+     "10",
+     "11",
+     "12",
+     "15",
+     "18",
+     "19"
+    ]
+   },
+   "75": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "75",
+    "attribute_value_name": "\u0427\u0438\u0441\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": [
+     "20",
+     "21",
+     "23",
+     "24",
+     "25"
+    ]
+   },
+   "101": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "101",
+    "attribute_value_name": "\u041c\u0435\u0441\u0442\u043e\u0438\u043c\u0435\u043d\u0438\u0435",
+    "next_attributes": [
+     "26",
+     "27"
+    ]
+   },
+   "135": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "135",
+    "attribute_value_name": "\u0413\u043b\u0430\u0433\u043e\u043b",
+    "next_attributes": [
+     "34",
+     "35"
+    ]
+   },
+   "235": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "235",
+    "attribute_value_name": "\u041f\u0440\u0438\u0447\u0430\u0441\u0442\u0438\u0435",
+    "next_attributes": [
+     "66",
+     "67",
+     "68",
+     "69",
+     "70",
+     "71",
+     "72",
+     "73",
+     "74",
+     "75"
+    ]
+   },
+   "264": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "264",
+    "attribute_value_name": "\u0414\u0435\u0435\u043f\u0440\u0438\u0447\u0430\u0441\u0442\u0438\u0435",
+    "next_attributes": [
+     "76",
+     "77",
+     "78",
+     "79",
+     "80"
+    ]
+   },
+   "275": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "275",
+    "attribute_value_name": "\u041d\u0430\u0440\u0435\u0447\u0438\u0435",
+    "next_attributes": [
+     "81",
+     "82"
+    ]
+   },
+   "296": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "296",
+    "attribute_value_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f",
+    "next_attributes": [
+     "88",
+     "89"
+    ]
+   },
+   "309": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "309",
+    "attribute_value_name": "\u0427\u0430\u0441\u0442\u0438\u0446\u0430",
+    "next_attributes": [
+     "92",
+     "95",
+     "96"
+    ]
+   },
+   "328": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "328",
+    "attribute_value_name": "\u041f\u0440\u0435\u0434\u043b\u043e\u0433",
+    "next_attributes": [
+     "97",
+     "99"
+    ]
+   },
+   "347": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "347",
+    "attribute_value_name": "\u0421\u043e\u044e\u0437",
+    "next_attributes": [
+     "100",
+     "101",
+     "102"
+    ]
+   },
+   "370": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "370",
+    "attribute_value_name": "\u041c\u043e\u0434\u0430\u043b\u044c\u043d\u043e\u0435 \u0441\u043b\u043e\u0432\u043e",
+    "next_attributes": [
+     "105",
+     "106"
+    ]
+   },
+   "375": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "375",
+    "attribute_value_name": "\u041c\u0435\u0436\u0434\u043e\u043c\u0435\u0442\u0438\u0435",
+    "next_attributes": [
+     "107",
+     "108"
+    ]
+   },
+   "383": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "383",
+    "attribute_value_name": "\u0417\u0432\u0443\u043a\u043e\u043f\u043e\u0434\u0440\u0430\u0436\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0441\u043b\u043e\u0432\u043e",
+    "next_attributes": []
+   },
+   "384": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "384",
+    "attribute_value_name": "\u0418\u043d\u043e\u0441\u0442\u0440\u0430\u043d\u043d\u043e\u0435 \u0441\u043b\u043e\u0432\u043e",
+    "next_attributes": [
+     "109"
+    ]
+   },
+   "393": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "393",
+    "attribute_value_name": "\u0426\u0438\u0442\u0430\u0442\u0430",
+    "next_attributes": [
+     "110"
+    ]
+   },
+   "396": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "396",
+    "attribute_value_name": "\u0412\u0432\u043e\u0434\u043d\u043e\u0435 \u0441\u043b\u043e\u0432\u043e",
+    "next_attributes": []
+   },
+   "397": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "397",
+    "attribute_value_name": "\u0421\u0442\u0430\u0440\u043e\u0441\u043b\u0430\u0432\u044f\u043d\u0438\u0437\u043c",
+    "next_attributes": []
+   },
+   "398": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "398",
+    "attribute_value_name": "\u0427\u0430\u0441\u0442\u044c \u0444\u0440\u0430\u0437\u0435\u043e\u043b\u043e\u0433\u0438\u0437\u043c\u0430",
+    "next_attributes": []
+   },
+   "399": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "399",
+    "attribute_value_name": "\u041d\u0435\u044f\u0437\u044b\u043a\u043e\u0432\u043e\u0439 \u0441\u0438\u043c\u0432\u043e\u043b",
+    "next_attributes": []
+   },
+   "400": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "400",
+    "attribute_value_name": "\u0421\u043e\u043a\u0440\u0430\u0449\u0435\u043d\u043d\u043e\u0435 \u0441\u043b\u043e\u0432\u043e",
+    "next_attributes": []
+   },
+   "401": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "401",
+    "attribute_value_name": "\u0427\u0430\u0441\u0442\u044c \u043c\u043d\u043e\u0433\u043e\u0447\u043b\u0435\u043d\u043d\u043e\u0433\u043e \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "2": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "2",
+  "attribute_name": "\u041d\u0430\u0447\u0430\u043b\u044c\u043d\u0430\u044f \u0444\u043e\u0440\u043c\u0430",
+  "attribute_values": {
+   "2": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "2",
+    "attribute_value_name": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435...",
+    "next_attributes": []
+   }
+  }
+ },
+ "3": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "3",
+  "attribute_name": "\u0420\u0430\u0437\u0440\u044f\u0434 \u043f\u043e \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044e(\u0410)",
+  "attribute_values": {
+   "3": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "3",
+    "attribute_value_name": "\u041e\u0434\u0443\u0448\u0435\u0432\u043b\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "4": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "4",
+    "attribute_value_name": "\u041d\u0435\u043e\u0434\u0443\u0448\u0435\u0432\u043b\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "5": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "5",
+    "attribute_value_name": "\u041d\u0435\u043e\u0434\u0443\u0448\u0435\u0432\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0438 \u043e\u0434\u0443\u0448\u0435\u0432\u043b\u0435\u043d\u043d\u043e\u0433\u043e",
+    "next_attributes": []
+   },
+   "6": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "6",
+    "attribute_value_name": "\u041e\u0434\u0443\u0448\u0435\u0432\u043b\u0435\u043d\u043d\u043e\u0435 \u0432 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0438 \u043d\u0435\u043e\u0434\u0443\u0448\u0435\u0432\u043b\u0435\u043d\u043d\u043e\u0433\u043e",
+    "next_attributes": []
+   }
+  }
+ },
+ "4": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "4",
+  "attribute_name": "\u0420\u0430\u0437\u0440\u044f\u0434 \u043f\u043e \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044e(\u0411)",
+  "attribute_values": {
+   "7": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "7",
+    "attribute_value_name": "\u0421\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "8": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "8",
+    "attribute_value_name": "\u041d\u0430\u0440\u0438\u0446\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "9": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "9",
+    "attribute_value_name": "\u0421\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0432 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0438 \u043d\u0430\u0440\u0438\u0446\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e",
+    "next_attributes": []
+   },
+   "10": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "10",
+    "attribute_value_name": "\u041d\u0430\u0440\u0438\u0446\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0432 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0438 \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e",
+    "next_attributes": []
+   }
+  }
+ },
+ "5": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "5",
+  "attribute_name": "\u0420\u0430\u0437\u0440\u044f\u0434 \u043f\u043e \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044e(\u0412)",
+  "attribute_values": {
+   "11": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "11",
+    "attribute_value_name": "\u041a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "12": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "12",
+    "attribute_value_name": "\u0410\u0431\u0441\u0442\u0440\u0430\u043a\u0442\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "13": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "13",
+    "attribute_value_name": "\u0412\u0435\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "14": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "14",
+    "attribute_value_name": "\u0421\u043e\u0431\u0438\u0440\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "15": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "15",
+    "attribute_value_name": "\u0410\u0431\u0441\u0442\u0440\u0430\u043a\u0442\u043d\u043e\u0435 \u0432 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0438 \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u043e\u0433\u043e",
+    "next_attributes": []
+   },
+   "16": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "16",
+    "attribute_value_name": "\u041a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u043e\u0435 \u0432 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0438 \u0430\u0431\u0441\u0442\u0440\u0430\u043a\u0442\u043d\u043e\u0433\u043e",
+    "next_attributes": []
+   }
+  }
+ },
+ "6": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "6",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0440\u043e\u0434\u0430",
+  "attribute_values": {
+   "17": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "17",
+    "attribute_value_name": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
+    "next_attributes": []
+   },
+   "18": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "18",
+    "attribute_value_name": "\u0416\u0435\u043d\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "19": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "19",
+    "attribute_value_name": "\u0421\u0440\u0435\u0434\u043d\u0438\u0439",
+    "next_attributes": []
+   },
+   "20": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "20",
+    "attribute_value_name": "\u041e\u0431\u0449\u0438\u0439",
+    "next_attributes": []
+   },
+   "21": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "21",
+    "attribute_value_name": "\u041d\u0435 \u0438\u043c\u0435\u0435\u0442 \u0440\u043e\u0434\u0430",
+    "next_attributes": []
+   }
+  }
+ },
+ "7": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "7",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0447\u0438\u0441\u043b\u0430",
+  "attribute_values": {
+   "22": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "22",
+    "attribute_value_name": "\u0415\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "23": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "23",
+    "attribute_value_name": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "24": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "24",
+    "attribute_value_name": "Singularia tantum",
+    "next_attributes": []
+   },
+   "25": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "25",
+    "attribute_value_name": "Pluralia tantum",
+    "next_attributes": []
+   }
+  }
+ },
+ "8": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "8",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u043f\u0430\u0434\u0435\u0436\u0430",
+  "attribute_values": {
+   "26": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "26",
+    "attribute_value_name": "\u0418\u043c\u0435\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "27": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "27",
+    "attribute_value_name": "\u0420\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "28": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "28",
+    "attribute_value_name": "\u0414\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "29": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "29",
+    "attribute_value_name": "\u0412\u0438\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "30": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "30",
+    "attribute_value_name": "\u0422\u0432\u043e\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "31": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "31",
+    "attribute_value_name": "\u041f\u0440\u0435\u0434\u043b\u043e\u0436\u043d\u044b\u0439",
+    "next_attributes": []
+   }
+  }
+ },
+ "9": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "9",
+  "attribute_name": "\u0422\u0438\u043f\u044b \u0441\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "32": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "32",
+    "attribute_value_name": "I \u0441\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u0435",
+    "next_attributes": []
+   },
+   "33": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "33",
+    "attribute_value_name": "II \u0441\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u0435",
+    "next_attributes": []
+   },
+   "34": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "34",
+    "attribute_value_name": "III \u0441\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u0435",
+    "next_attributes": []
+   },
+   "35": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "35",
+    "attribute_value_name": "\u0420\u0430\u0437\u043d\u043e\u0441\u043a\u043b\u043e\u043d\u044f\u0435\u043c\u043e\u0435",
+    "next_attributes": []
+   },
+   "36": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "36",
+    "attribute_value_name": "\u0410\u0434\u044a\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "37": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "37",
+    "attribute_value_name": "\u041d\u0435\u0441\u043a\u043b\u043e\u043d\u044f\u0435\u043c\u043e\u0435",
+    "next_attributes": []
+   },
+   "38": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "38",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "10": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "10",
+  "attribute_name": "\u041d\u0430\u0447\u0430\u043b\u044c\u043d\u0430\u044f \u0444\u043e\u0440\u043c\u0430",
+  "attribute_values": {
+   "40": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "40",
+    "attribute_value_name": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435...",
+    "next_attributes": []
+   }
+  }
+ },
+ "11": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "11",
+  "attribute_name": "\u0420\u0430\u0437\u0440\u044f\u0434 \u043f\u043e \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044e",
+  "attribute_values": {
+   "41": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "41",
+    "attribute_value_name": "\u041a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "42": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "42",
+    "attribute_value_name": "\u041e\u0442\u043d\u043e\u0441\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "43": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "43",
+    "attribute_value_name": "\u041f\u0440\u0438\u0442\u044f\u0436\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "44": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "44",
+    "attribute_value_name": "\u041a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e-\u043e\u0442\u043d\u043e\u0441\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "45": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "45",
+    "attribute_value_name": "\u041e\u0442\u043d\u043e\u0441\u0438\u0442\u0435\u043b\u044c\u043d\u043e-\u043f\u0440\u0438\u0442\u044f\u0436\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "46": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "46",
+    "attribute_value_name": "\u041f\u0440\u0435\u0434\u0438\u043a\u0430\u0442\u0438\u0432\u043d\u043e\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "12": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "12",
+  "attribute_name": "\u041f\u043e \u0444\u043e\u0440\u043c\u0435",
+  "attribute_values": {
+   "47": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "47",
+    "attribute_value_name": "\u041f\u043e\u043b\u043d\u043e\u0435",
+    "next_attributes": [
+     "13",
+     "14"
+    ]
+   },
+   "58": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "58",
+    "attribute_value_name": "\u041a\u0440\u0430\u0442\u043a\u043e\u0435",
+    "next_attributes": []
+   },
+   "59": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "59",
+    "attribute_value_name": "\u0423\u0441\u0435\u0447\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "13": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "13",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u043f\u0430\u0434\u0435\u0436\u0430 (\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u0430\u044f)",
+  "attribute_values": {
+   "48": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "48",
+    "attribute_value_name": "\u0418\u043c\u0435\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "49": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "49",
+    "attribute_value_name": "\u0420\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "50": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "50",
+    "attribute_value_name": "\u0414\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "51": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "51",
+    "attribute_value_name": "\u0412\u0438\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "52": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "52",
+    "attribute_value_name": "\u0422\u0432\u043e\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "53": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "53",
+    "attribute_value_name": "\u041f\u0440\u0435\u0434\u043b\u043e\u0436\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "54": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "54",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "14": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "14",
+  "attribute_name": "\u0421\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u0435",
+  "attribute_values": {
+   "55": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "55",
+    "attribute_value_name": "\u0410\u0434\u044a\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "56": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "56",
+    "attribute_value_name": "\u0421\u0443\u0431\u0441\u0442\u0430\u043d\u0442\u0438\u0432\u043d\u043e-\u0430\u0434\u044a\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "57": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "57",
+    "attribute_value_name": "\u041d\u0435\u0441\u043a\u043b\u043e\u043d\u044f\u0435\u043c\u043e\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "15": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "15",
+  "attribute_name": "\u0421\u0442\u0435\u043f\u0435\u043d\u044c \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "60": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "60",
+    "attribute_value_name": "\u0421\u0440\u0430\u0432\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f",
+    "next_attributes": [
+     "16"
+    ]
+   },
+   "63": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "63",
+    "attribute_value_name": "\u041f\u0440\u0435\u0432\u043e\u0441\u0445\u043e\u0434\u043d\u0430\u044f",
+    "next_attributes": [
+     "17"
+    ]
+   },
+   "66": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "66",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "16": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "16",
+  "attribute_name": "\u0421\u043f\u043e\u0441\u043e\u0431 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0444\u043e\u0440\u043c \u0441\u0442\u0435\u043f\u0435\u043d\u0435\u0439 \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "61": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "61",
+    "attribute_value_name": "\u0421\u0438\u043d\u0442\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "62": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "62",
+    "attribute_value_name": "\u0410\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   }
+  }
+ },
+ "17": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "17",
+  "attribute_name": "\u0421\u043f\u043e\u0441\u043e\u0431 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0444\u043e\u0440\u043c \u0441\u0442\u0435\u043f\u0435\u043d\u0435\u0439 \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "64": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "64",
+    "attribute_value_name": "\u0421\u0438\u043d\u0442\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "65": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "65",
+    "attribute_value_name": "\u0410\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   }
+  }
+ },
+ "18": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "18",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0447\u0438\u0441\u043b\u0430 (\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u0430\u044f)",
+  "attribute_values": {
+   "67": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "67",
+    "attribute_value_name": "\u0415\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "68": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "68",
+    "attribute_value_name": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "69": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "69",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "19": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "19",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0440\u043e\u0434\u0430 (\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u0430\u044f)",
+  "attribute_values": {
+   "70": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "70",
+    "attribute_value_name": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
+    "next_attributes": []
+   },
+   "71": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "71",
+    "attribute_value_name": "\u0416\u0435\u043d\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "72": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "72",
+    "attribute_value_name": "\u0421\u0440\u0435\u0434\u043d\u0438\u0439",
+    "next_attributes": []
+   },
+   "73": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "73",
+    "attribute_value_name": "\u041d\u0435 \u0438\u043c\u0435\u0435\u0442 \u0440\u043e\u0434\u0430",
+    "next_attributes": []
+   },
+   "74": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "74",
+    "attribute_value_name": "\u041d\u0435 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0435\u0442\u0441\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "20": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "20",
+  "attribute_name": "\u041d\u0430\u0447\u0430\u043b\u044c\u043d\u0430\u044f \u0444\u043e\u0440\u043c\u0430",
+  "attribute_values": {
+   "76": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "76",
+    "attribute_value_name": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435...",
+    "next_attributes": []
+   }
+  }
+ },
+ "21": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "21",
+  "attribute_name": "\u0420\u0430\u0437\u0440\u044f\u0434\u044b \u043f\u043e \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044e",
+  "attribute_values": {
+   "77": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "77",
+    "attribute_value_name": "\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": [
+     "22"
+    ]
+   },
+   "82": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "82",
+    "attribute_value_name": "\u041f\u043e\u0440\u044f\u0434\u043a\u043e\u0432\u043e\u0435",
+    "next_attributes": []
+   },
+   "83": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "83",
+    "attribute_value_name": "\u0421\u043e\u0431\u0438\u0440\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "84": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "84",
+    "attribute_value_name": "\u0414\u0440\u043e\u0431\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "85": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "85",
+    "attribute_value_name": "\u041d\u0435\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u043e-\u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "22": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "22",
+  "attribute_name": "\u041f\u043e \u0441\u043f\u043e\u0441\u043e\u0431\u0443 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f",
+  "attribute_values": {
+   "78": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "78",
+    "attribute_value_name": "\u041f\u0440\u043e\u0441\u0442\u043e\u0435",
+    "next_attributes": []
+   },
+   "79": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "79",
+    "attribute_value_name": "\u0421\u043b\u043e\u0436\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "80": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "80",
+    "attribute_value_name": "\u0427\u0430\u0441\u0442\u044c \u0441\u043e\u0441\u0442\u0430\u0432\u043d\u043e\u0433\u043e",
+    "next_attributes": []
+   },
+   "81": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "81",
+    "attribute_value_name": "\u041d\u0435 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0435\u0442\u0441\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "23": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "23",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0440\u043e\u0434\u0430",
+  "attribute_values": {
+   "86": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "86",
+    "attribute_value_name": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
+    "next_attributes": []
+   },
+   "87": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "87",
+    "attribute_value_name": "\u0416\u0435\u043d\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "88": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "88",
+    "attribute_value_name": "\u0421\u0440\u0435\u0434\u043d\u0438\u0439",
+    "next_attributes": []
+   },
+   "89": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "89",
+    "attribute_value_name": "\u041d\u0435 \u0438\u043c\u0435\u0435\u0442 \u0440\u043e\u0434\u0430",
+    "next_attributes": []
+   },
+   "90": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "90",
+    "attribute_value_name": "\u041d\u0435 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0435\u0442\u0441\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "24": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "24",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0447\u0438\u0441\u043b\u0430",
+  "attribute_values": {
+   "91": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "91",
+    "attribute_value_name": "\u0415\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "92": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "92",
+    "attribute_value_name": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "93": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "93",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "25": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "25",
+  "attribute_name": "\u041f\u0430\u0434\u0435\u0436",
+  "attribute_values": {
+   "94": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "94",
+    "attribute_value_name": "\u0418\u043c\u0435\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "95": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "95",
+    "attribute_value_name": "\u0420\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "96": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "96",
+    "attribute_value_name": "\u0414\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "97": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "97",
+    "attribute_value_name": "\u0412\u0438\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "98": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "98",
+    "attribute_value_name": "\u0422\u0432\u043e\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "99": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "99",
+    "attribute_value_name": "\u041f\u0440\u0435\u0434\u043b\u043e\u0436\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "100": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "100",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "26": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "26",
+  "attribute_name": "\u041d\u0430\u0447\u0430\u043b\u044c\u043d\u0430\u044f \u0444\u043e\u0440\u043c\u0430",
+  "attribute_values": {
+   "102": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "102",
+    "attribute_value_name": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435...",
+    "next_attributes": []
+   }
+  }
+ },
+ "27": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "27",
+  "attribute_name": "\u0412\u0441\u043f\u043e\u043c\u043e\u0433\u0430\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u043e\u0439 \u0441\u0442\u0435\u043f\u0435\u043d\u0438 \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "103": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "103",
+    "attribute_value_name": "\u0414\u0430",
+    "next_attributes": []
+   },
+   "104": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "104",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": [
+     "28",
+     "30",
+     "31",
+     "32",
+     "33"
+    ]
+   }
+  }
+ },
+ "28": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "28",
+  "attribute_name": "\u0420\u0430\u0437\u0440\u044f\u0434 \u043f\u043e \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044e",
+  "attribute_values": {
+   "105": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "105",
+    "attribute_value_name": "\u041b\u0438\u0447\u043d\u043e\u0435",
+    "next_attributes": [
+     "29"
+    ]
+   },
+   "109": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "109",
+    "attribute_value_name": "\u0412\u043e\u0437\u0432\u0440\u0430\u0442\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "110": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "110",
+    "attribute_value_name": "\u041f\u0440\u0438\u0442\u044f\u0436\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "111": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "111",
+    "attribute_value_name": "\u0423\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "112": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "112",
+    "attribute_value_name": "\u0412\u043e\u043f\u0440\u043e\u0441\u0438\u0442\u0435\u043b\u044c\u043d\u043e-\u043e\u0442\u043d\u043e\u0441\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "113": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "113",
+    "attribute_value_name": "\u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "114": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "114",
+    "attribute_value_name": "\u041e\u0442\u0440\u0438\u0446\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "115": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "115",
+    "attribute_value_name": "\u041d\u0435\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "29": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "29",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u043b\u0438\u0446\u0430",
+  "attribute_values": {
+   "106": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "106",
+    "attribute_value_name": "I",
+    "next_attributes": []
+   },
+   "107": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "107",
+    "attribute_value_name": "II",
+    "next_attributes": []
+   },
+   "108": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "108",
+    "attribute_value_name": "III",
+    "next_attributes": []
+   }
+  }
+ },
+ "30": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "30",
+  "attribute_name": "\u041f\u043e \u0441\u043e\u043e\u0442\u043d\u043e\u0441\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438 \u0441 \u0434\u0440. \u0447. \u0440.",
+  "attribute_values": {
+   "116": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "116",
+    "attribute_value_name": "\u041e\u0431\u043e\u0431\u0449\u0435\u043d\u043d\u043e-\u043f\u0440\u0435\u0434\u043c\u0435\u0442\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "117": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "117",
+    "attribute_value_name": "\u041e\u0431\u043e\u0431\u0449\u0435\u043d\u043d\u043e-\u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "118": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "118",
+    "attribute_value_name": "\u041e\u0431\u043e\u0431\u0449\u0435\u043d\u043d\u043e-\u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "119": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "119",
+    "attribute_value_name": "\u041d\u0435\u0441\u043e\u043e\u0442\u043d\u043e\u0441\u0438\u043c\u043e\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "31": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "31",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0440\u043e\u0434\u0430",
+  "attribute_values": {
+   "120": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "120",
+    "attribute_value_name": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
+    "next_attributes": []
+   },
+   "121": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "121",
+    "attribute_value_name": "\u0416\u0435\u043d\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "122": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "122",
+    "attribute_value_name": "\u0421\u0440\u0435\u0434\u043d\u0438\u0439",
+    "next_attributes": []
+   },
+   "123": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "123",
+    "attribute_value_name": "\u041d\u0435 \u0438\u043c\u0435\u0435\u0442 \u0440\u043e\u0434\u0430",
+    "next_attributes": []
+   },
+   "124": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "124",
+    "attribute_value_name": "\u041d\u0435 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0435\u0442\u0441\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "32": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "32",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0447\u0438\u0441\u043b\u0430",
+  "attribute_values": {
+   "125": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "125",
+    "attribute_value_name": "\u0415\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "126": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "126",
+    "attribute_value_name": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "127": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "127",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "33": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "33",
+  "attribute_name": "\u041f\u0430\u0434\u0435\u0436",
+  "attribute_values": {
+   "128": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "128",
+    "attribute_value_name": "\u0418\u043c\u0435\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "129": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "129",
+    "attribute_value_name": "\u0420\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "130": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "130",
+    "attribute_value_name": "\u0414\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "131": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "131",
+    "attribute_value_name": "\u0412\u0438\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "132": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "132",
+    "attribute_value_name": "\u0422\u0432\u043e\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "133": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "133",
+    "attribute_value_name": "\u041f\u0440\u0435\u0434\u043b\u043e\u0436\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "134": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "134",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "34": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "34",
+  "attribute_name": "\u041d\u0430\u0447\u0430\u043b\u044c\u043d\u0430\u044f \u0444\u043e\u0440\u043c\u0430",
+  "attribute_values": {
+   "136": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "136",
+    "attribute_value_name": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435...",
+    "next_attributes": []
+   }
+  }
+ },
+ "35": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "35",
+  "attribute_name": "\u041e\u0442\u0432\u043b\u0435\u0447\u0435\u043d\u043d\u044b\u0439 \u0433\u043b\u0430\u0433\u043e\u043b-\u0441\u0432\u044f\u0437\u043a\u0430",
+  "attribute_values": {
+   "137": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "137",
+    "attribute_value_name": "\u0414\u0430",
+    "next_attributes": []
+   },
+   "138": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "138",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": [
+     "36"
+    ]
+   }
+  }
+ },
+ "36": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "36",
+  "attribute_name": "\u041f\u043e\u043b\u0443\u043e\u0442\u0432\u043b\u0435\u0447\u0435\u043d\u043d\u044b\u0439 \u0433\u043b\u0430\u0433\u043e\u043b",
+  "attribute_values": {
+   "139": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "139",
+    "attribute_value_name": "\u0414\u0430",
+    "next_attributes": []
+   },
+   "140": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "140",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": [
+     "37",
+     "38",
+     "62",
+     "63",
+     "64",
+     "65"
+    ]
+   }
+  }
+ },
+ "37": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "37",
+  "attribute_name": "\u0427\u0430\u0441\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u043e\u0439 \u0444\u043e\u0440\u043c\u044b \u0432\u0440\u0435\u043c\u0435\u043d\u0438",
+  "attribute_values": {
+   "141": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "141",
+    "attribute_value_name": "\u0414\u0430",
+    "next_attributes": []
+   },
+   "142": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "142",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "38": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "38",
+  "attribute_name": "\u0418\u043d\u0444\u0438\u043d\u0438\u0442\u0438\u0432",
+  "attribute_values": {
+   "143": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "143",
+    "attribute_value_name": "\u0414\u0430",
+    "next_attributes": [
+     "39"
+    ]
+   },
+   "147": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "147",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": [
+     "40",
+     "60",
+     "61"
+    ]
+   }
+  }
+ },
+ "39": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "39",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u043d\u0430\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "144": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "144",
+    "attribute_value_name": "\u0418\u0437\u044a\u044f\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "145": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "145",
+    "attribute_value_name": "\u0421\u043e\u0441\u043b\u0430\u0433\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "146": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "146",
+    "attribute_value_name": "\u041f\u043e\u0432\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "40": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "40",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0432\u0440\u0435\u043c\u0435\u043d\u0438",
+  "attribute_values": {
+   "148": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "148",
+    "attribute_value_name": "\u041d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u0435",
+    "next_attributes": [
+     "41"
+    ]
+   },
+   "165": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "165",
+    "attribute_value_name": "\u041f\u0440\u043e\u0448\u0435\u0434\u0448\u0435\u0435",
+    "next_attributes": [
+     "46",
+     "47",
+     "48"
+    ]
+   },
+   "176": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "176",
+    "attribute_value_name": "\u0411\u0443\u0434\u0443\u0449\u0435\u0435 \u043f\u0440\u043e\u0441\u0442\u043e\u0435",
+    "next_attributes": [
+     "49"
+    ]
+   },
+   "193": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "193",
+    "attribute_value_name": "\u0411\u0443\u0434\u0443\u0449\u0435\u0435 \u0441\u043b\u043e\u0436\u043d\u043e\u0435",
+    "next_attributes": [
+     "54"
+    ]
+   },
+   "210": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "210",
+    "attribute_value_name": "\u041d\u0435 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0435\u0442\u0441\u044f",
+    "next_attributes": [
+     "59"
+    ]
+   }
+  }
+ },
+ "41": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "41",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u043d\u0430\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "149": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "149",
+    "attribute_value_name": "\u0418\u0437\u044a\u044f\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": [
+     "42"
+    ]
+   },
+   "153": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "153",
+    "attribute_value_name": "\u0421\u043e\u0441\u043b\u0430\u0433\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": [
+     "43"
+    ]
+   },
+   "161": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "161",
+    "attribute_value_name": "\u041f\u043e\u0432\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": [
+     "45"
+    ]
+   }
+  }
+ },
+ "42": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "42",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0447\u0438\u0441\u043b\u0430",
+  "attribute_values": {
+   "150": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "150",
+    "attribute_value_name": "\u0415\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "151": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "151",
+    "attribute_value_name": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "152": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "152",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "43": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "43",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0447\u0438\u0441\u043b\u0430",
+  "attribute_values": {
+   "154": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "154",
+    "attribute_value_name": "\u0415\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": [
+     "44"
+    ]
+   },
+   "159": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "159",
+    "attribute_value_name": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "160": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "160",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "44": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "44",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0440\u043e\u0434\u0430",
+  "attribute_values": {
+   "155": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "155",
+    "attribute_value_name": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
+    "next_attributes": []
+   },
+   "156": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "156",
+    "attribute_value_name": "\u0416\u0435\u043d\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "157": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "157",
+    "attribute_value_name": "\u0421\u0440\u0435\u0434\u043d\u0438\u0439",
+    "next_attributes": []
+   },
+   "158": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "158",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "45": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "45",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0447\u0438\u0441\u043b\u0430",
+  "attribute_values": {
+   "162": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "162",
+    "attribute_value_name": "\u0415\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "163": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "163",
+    "attribute_value_name": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "164": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "164",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "46": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "46",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u043d\u0430\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "166": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "166",
+    "attribute_value_name": "\u0418\u0437\u044a\u044f\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "167": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "167",
+    "attribute_value_name": "\u0421\u043e\u0441\u043b\u0430\u0433\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "168": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "168",
+    "attribute_value_name": "\u041f\u043e\u0432\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "47": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "47",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0447\u0438\u0441\u043b\u0430",
+  "attribute_values": {
+   "169": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "169",
+    "attribute_value_name": "\u0415\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "170": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "170",
+    "attribute_value_name": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "171": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "171",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "48": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "48",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0440\u043e\u0434\u0430",
+  "attribute_values": {
+   "172": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "172",
+    "attribute_value_name": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
+    "next_attributes": []
+   },
+   "173": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "173",
+    "attribute_value_name": "\u0416\u0435\u043d\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "174": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "174",
+    "attribute_value_name": "\u0421\u0440\u0435\u0434\u043d\u0438\u0439",
+    "next_attributes": []
+   },
+   "175": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "175",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "49": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "49",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u043d\u0430\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "177": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "177",
+    "attribute_value_name": "\u0418\u0437\u044a\u044f\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": [
+     "50"
+    ]
+   },
+   "181": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "181",
+    "attribute_value_name": "\u0421\u043e\u0441\u043b\u0430\u0433\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": [
+     "51"
+    ]
+   },
+   "189": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "189",
+    "attribute_value_name": "\u041f\u043e\u0432\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": [
+     "53"
+    ]
+   }
+  }
+ },
+ "50": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "50",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0447\u0438\u0441\u043b\u0430",
+  "attribute_values": {
+   "178": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "178",
+    "attribute_value_name": "\u0415\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "179": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "179",
+    "attribute_value_name": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "180": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "180",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "51": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "51",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0447\u0438\u0441\u043b\u0430",
+  "attribute_values": {
+   "182": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "182",
+    "attribute_value_name": "\u0415\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": [
+     "52"
+    ]
+   },
+   "187": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "187",
+    "attribute_value_name": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "188": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "188",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "52": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "52",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0440\u043e\u0434\u0430",
+  "attribute_values": {
+   "183": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "183",
+    "attribute_value_name": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
+    "next_attributes": []
+   },
+   "184": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "184",
+    "attribute_value_name": "\u0416\u0435\u043d\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "185": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "185",
+    "attribute_value_name": "\u0421\u0440\u0435\u0434\u043d\u0438\u0439",
+    "next_attributes": []
+   },
+   "186": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "186",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "53": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "53",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0447\u0438\u0441\u043b\u0430",
+  "attribute_values": {
+   "190": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "190",
+    "attribute_value_name": "\u0415\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "191": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "191",
+    "attribute_value_name": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "192": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "192",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "54": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "54",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u043d\u0430\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "194": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "194",
+    "attribute_value_name": "\u0418\u0437\u044a\u044f\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": [
+     "55"
+    ]
+   },
+   "198": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "198",
+    "attribute_value_name": "\u0421\u043e\u0441\u043b\u0430\u0433\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": [
+     "56"
+    ]
+   },
+   "206": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "206",
+    "attribute_value_name": "\u041f\u043e\u0432\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": [
+     "58"
+    ]
+   }
+  }
+ },
+ "55": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "55",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0447\u0438\u0441\u043b\u0430",
+  "attribute_values": {
+   "195": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "195",
+    "attribute_value_name": "\u0415\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "196": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "196",
+    "attribute_value_name": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "197": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "197",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "56": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "56",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0447\u0438\u0441\u043b\u0430",
+  "attribute_values": {
+   "199": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "199",
+    "attribute_value_name": "\u0415\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": [
+     "57"
+    ]
+   },
+   "204": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "204",
+    "attribute_value_name": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "205": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "205",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "57": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "57",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0440\u043e\u0434\u0430",
+  "attribute_values": {
+   "200": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "200",
+    "attribute_value_name": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
+    "next_attributes": []
+   },
+   "201": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "201",
+    "attribute_value_name": "\u0416\u0435\u043d\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "202": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "202",
+    "attribute_value_name": "\u0421\u0440\u0435\u0434\u043d\u0438\u0439",
+    "next_attributes": []
+   },
+   "203": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "203",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "58": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "58",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0447\u0438\u0441\u043b\u0430",
+  "attribute_values": {
+   "207": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "207",
+    "attribute_value_name": "\u0415\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "208": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "208",
+    "attribute_value_name": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "209": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "209",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "59": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "59",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u043d\u0430\u043a\u043b\u043e\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "211": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "211",
+    "attribute_value_name": "\u0418\u0437\u044a\u044f\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "212": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "212",
+    "attribute_value_name": "\u0421\u043e\u0441\u043b\u0430\u0433\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "213": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "213",
+    "attribute_value_name": "\u041f\u043e\u0432\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "60": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "60",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u043b\u0438\u0446\u0430",
+  "attribute_values": {
+   "214": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "214",
+    "attribute_value_name": "I",
+    "next_attributes": []
+   },
+   "215": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "215",
+    "attribute_value_name": "II",
+    "next_attributes": []
+   },
+   "216": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "216",
+    "attribute_value_name": "III",
+    "next_attributes": []
+   },
+   "217": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "217",
+    "attribute_value_name": "\u0411\u0435\u0437\u043b\u0438\u0447\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "218": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "218",
+    "attribute_value_name": "\u041d\u0435\u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u043e-\u043b\u0438\u0447\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "219": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "219",
+    "attribute_value_name": "\u041e\u0431\u043e\u0431\u0449\u0435\u043d\u043d\u043e-\u043b\u0438\u0447\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "220": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "220",
+    "attribute_value_name": "\u041d\u0435 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0435\u0442\u0441\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "61": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "61",
+  "attribute_name": "\u0422\u0438\u043f\u044b \u0441\u043f\u0440\u044f\u0436\u0435\u043d\u0438\u044f \u0433\u043b\u0430\u0433\u043e\u043b\u043e\u0432",
+  "attribute_values": {
+   "221": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "221",
+    "attribute_value_name": "I \u0441\u043f\u0440\u044f\u0436\u0435\u043d\u0438\u0435",
+    "next_attributes": []
+   },
+   "222": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "222",
+    "attribute_value_name": "II \u0441\u043f\u0440\u044f\u0436\u0435\u043d\u0438\u0435",
+    "next_attributes": []
+   },
+   "223": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "223",
+    "attribute_value_name": "\u0420\u0430\u0437\u043d\u043e\u0441\u043f\u0440\u044f\u0433\u0430\u0435\u043c\u044b\u0439",
+    "next_attributes": []
+   },
+   "224": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "224",
+    "attribute_value_name": "\u041d\u0435\u0441\u043f\u0440\u044f\u0433\u0430\u0435\u043c\u044b\u0439",
+    "next_attributes": []
+   },
+   "225": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "225",
+    "attribute_value_name": "\u041d\u0435 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0435\u0442\u0441\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "62": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "62",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0432\u0438\u0434\u0430",
+  "attribute_values": {
+   "226": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "226",
+    "attribute_value_name": "\u0421\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "227": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "227",
+    "attribute_value_name": "\u041d\u0435\u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "228": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "228",
+    "attribute_value_name": "\u041d\u0435 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0435\u0442\u0441\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "63": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "63",
+  "attribute_name": "\u041f\u043e \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u044e \u043a \u043e\u0431\u044a\u0435\u043a\u0442\u0443 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f",
+  "attribute_values": {
+   "229": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "229",
+    "attribute_value_name": "\u041f\u0435\u0440\u0435\u0445\u043e\u0434\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "230": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "230",
+    "attribute_value_name": "\u041d\u0435\u043f\u0435\u0440\u0435\u0445\u043e\u0434\u043d\u044b\u0439",
+    "next_attributes": []
+   }
+  }
+ },
+ "64": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "64",
+  "attribute_name": "\u041f\u043e \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u044e \u043a \u0441\u0443\u0431\u044a\u0435\u043a\u0442\u0443 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f",
+  "attribute_values": {
+   "231": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "231",
+    "attribute_value_name": "\u0412\u043e\u0437\u0432\u0440\u0430\u0442\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "232": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "232",
+    "attribute_value_name": "\u041d\u0435\u0432\u043e\u0437\u0432\u0440\u0430\u0442\u043d\u044b\u0439",
+    "next_attributes": []
+   }
+  }
+ },
+ "65": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "65",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0437\u0430\u043b\u043e\u0433\u0430 (\u043f\u043e \u0431\u0438\u043d\u0430\u0440\u043d\u043e\u0439 \u0442\u0435\u043e\u0440\u0438\u0438)",
+  "attribute_values": {
+   "233": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "233",
+    "attribute_value_name": "\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "234": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "234",
+    "attribute_value_name": "\u0421\u0442\u0440\u0430\u0434\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   }
+  }
+ },
+ "66": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "66",
+  "attribute_name": "\u041d\u0430\u0447\u0430\u043b\u044c\u043d\u0430\u044f \u0444\u043e\u0440\u043c\u0430",
+  "attribute_values": {
+   "236": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "236",
+    "attribute_value_name": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435...",
+    "next_attributes": []
+   }
+  }
+ },
+ "67": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "67",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0432\u0438\u0434\u0430",
+  "attribute_values": {
+   "237": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "237",
+    "attribute_value_name": "\u0421\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "238": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "238",
+    "attribute_value_name": "\u041d\u0435\u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u043d\u044b\u0439",
+    "next_attributes": []
+   }
+  }
+ },
+ "68": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "68",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0437\u0430\u043b\u043e\u0433\u0430",
+  "attribute_values": {
+   "239": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "239",
+    "attribute_value_name": "\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "240": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "240",
+    "attribute_value_name": "\u0421\u0442\u0440\u0430\u0434\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "69": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "69",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0432\u0440\u0435\u043c\u0435\u043d\u0438",
+  "attribute_values": {
+   "241": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "241",
+    "attribute_value_name": "\u041d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u0435",
+    "next_attributes": []
+   },
+   "242": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "242",
+    "attribute_value_name": "\u041f\u0440\u043e\u0448\u0435\u0434\u0448\u0435\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "70": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "70",
+  "attribute_name": "\u0424\u043e\u0440\u043c\u0430 \u043f\u0440\u0438\u0447\u0430\u0441\u0442\u0438\u044f",
+  "attribute_values": {
+   "243": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "243",
+    "attribute_value_name": "\u041f\u043e\u043b\u043d\u0430\u044f",
+    "next_attributes": []
+   },
+   "244": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "244",
+    "attribute_value_name": "\u041a\u0440\u0430\u0442\u043a\u0430\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "71": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "71",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0440\u043e\u0434\u0430 (\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u0430\u044f)",
+  "attribute_values": {
+   "245": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "245",
+    "attribute_value_name": "\u041c\u0443\u0436\u0441\u043a\u043e\u0439",
+    "next_attributes": []
+   },
+   "246": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "246",
+    "attribute_value_name": "\u0416\u0435\u043d\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "247": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "247",
+    "attribute_value_name": "\u0421\u0440\u0435\u0434\u043d\u0438\u0439",
+    "next_attributes": []
+   },
+   "248": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "248",
+    "attribute_value_name": "\u041d\u0435 \u0438\u043c\u0435\u0435\u0442 \u0440\u043e\u0434\u0430",
+    "next_attributes": []
+   },
+   "249": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "249",
+    "attribute_value_name": "\u041d\u0435 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0435\u0442\u0441\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "72": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "72",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0447\u0438\u0441\u043b\u0430 (\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u0430\u044f)",
+  "attribute_values": {
+   "250": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "250",
+    "attribute_value_name": "\u0415\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "251": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "251",
+    "attribute_value_name": "\u041c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "252": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "252",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "73": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "73",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u043f\u0430\u0434\u0435\u0436\u0430 (\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u0430\u044f)",
+  "attribute_values": {
+   "253": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "253",
+    "attribute_value_name": "\u0418\u043c\u0435\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "254": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "254",
+    "attribute_value_name": "\u0420\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "255": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "255",
+    "attribute_value_name": "\u0414\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "256": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "256",
+    "attribute_value_name": "\u0412\u0438\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "257": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "257",
+    "attribute_value_name": "\u0422\u0432\u043e\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "258": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "258",
+    "attribute_value_name": "\u041f\u0440\u0435\u0434\u043b\u043e\u0436\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "259": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "259",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "74": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "74",
+  "attribute_name": "\u041f\u043e \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u044e \u043a \u043e\u0431\u044a\u0435\u043a\u0442\u0443",
+  "attribute_values": {
+   "260": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "260",
+    "attribute_value_name": "\u041f\u0435\u0440\u0435\u0445\u043e\u0434\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "261": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "261",
+    "attribute_value_name": "\u041d\u0435\u043f\u0435\u0440\u0435\u0445\u043e\u0434\u043d\u043e\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "75": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "75",
+  "attribute_name": "\u041f\u043e \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u044e \u043a \u0441\u0443\u0431\u044a\u0435\u043a\u0442\u0443",
+  "attribute_values": {
+   "262": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "262",
+    "attribute_value_name": "\u041d\u0435\u0432\u043e\u0437\u0432\u0440\u0430\u0442\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "263": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "263",
+    "attribute_value_name": "\u0412\u043e\u0437\u0432\u0440\u0430\u0442\u043d\u043e\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "76": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "76",
+  "attribute_name": "\u041d\u0430\u0447\u0430\u043b\u044c\u043d\u0430\u044f \u0444\u043e\u0440\u043c\u0430",
+  "attribute_values": {
+   "265": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "265",
+    "attribute_value_name": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435...",
+    "next_attributes": []
+   }
+  }
+ },
+ "77": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "77",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u0432\u0438\u0434\u0430",
+  "attribute_values": {
+   "266": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "266",
+    "attribute_value_name": "\u0421\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "267": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "267",
+    "attribute_value_name": "\u041d\u0435\u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u043d\u044b\u0439",
+    "next_attributes": []
+   }
+  }
+ },
+ "78": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "78",
+  "attribute_name": "\u0424\u043e\u0440\u043c\u0430 \u0434\u0435\u0435\u043f\u0440\u0438\u0447\u0430\u0441\u0442\u0438\u044f",
+  "attribute_values": {
+   "268": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "268",
+    "attribute_value_name": "\u0412\u043e\u0437\u0432\u0440\u0430\u0442\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "269": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "269",
+    "attribute_value_name": "\u041d\u0435\u0432\u043e\u0437\u0432\u0440\u0430\u0442\u043d\u043e\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "79": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "79",
+  "attribute_name": "\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f \u043e\u0442\u043d\u043e\u0441. \u043e\u0431\u043e\u0437\u043d. \u0432\u0440\u0435\u043c\u0435\u043d\u0438",
+  "attribute_values": {
+   "270": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "270",
+    "attribute_value_name": "\u041e\u0434\u043d\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0435 \u0441 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435\u043c \u0433\u043b\u0430\u0433\u043e\u043b\u0430-\u0441\u043a\u0430\u0437\u0443\u0435\u043c\u043e\u0433\u043e",
+    "next_attributes": []
+   },
+   "271": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "271",
+    "attribute_value_name": "\u041f\u0440\u0435\u0434\u0448\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0435\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044e \u0433\u043b\u0430\u0433\u043e\u043b\u0430-\u0441\u043a\u0430\u0437\u0443\u0435\u043c\u043e\u0433\u043e",
+    "next_attributes": []
+   },
+   "272": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "272",
+    "attribute_value_name": "\u041f\u043e\u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u0435 \u0437\u0430 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435\u043c \u0433\u043b\u0430\u0433\u043e\u043b\u0430-\u0441\u043a\u0430\u0437\u0443\u0435\u043c\u043e\u0433\u043e",
+    "next_attributes": []
+   }
+  }
+ },
+ "80": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "80",
+  "attribute_name": "\u041f\u043e \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u044e \u043a \u043e\u0431\u044a\u0435\u043a\u0442\u0443 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f",
+  "attribute_values": {
+   "273": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "273",
+    "attribute_value_name": "\u041f\u0435\u0440\u0435\u0445\u043e\u0434\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "274": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "274",
+    "attribute_value_name": "\u041d\u0435\u043f\u0435\u0440\u0435\u0445\u043e\u0434\u043d\u043e\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "81": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "81",
+  "attribute_name": "\u041d\u0430\u0447\u0430\u043b\u044c\u043d\u0430\u044f \u0444\u043e\u0440\u043c\u0430",
+  "attribute_values": {
+   "276": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "276",
+    "attribute_value_name": "\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0435...",
+    "next_attributes": []
+   }
+  }
+ },
+ "82": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "82",
+  "attribute_name": "\u0412\u0441\u043f\u043e\u043c\u043e\u0433\u0430\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u0447\u0430\u0441\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u043e\u0439 \u0441\u0442\u0435\u043f\u0435\u043d\u0438 \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "277": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "277",
+    "attribute_value_name": "\u0414\u0430",
+    "next_attributes": []
+   },
+   "278": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "278",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": [
+     "83",
+     "84"
+    ]
+   }
+  }
+ },
+ "83": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "83",
+  "attribute_name": "\u0420\u0430\u0437\u0440\u044f\u0434 \u043f\u043e \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044e",
+  "attribute_values": {
+   "279": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "279",
+    "attribute_value_name": "\u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "280": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "280",
+    "attribute_value_name": "\u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "281": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "281",
+    "attribute_value_name": "\u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0441\u0440\u0430\u0432\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e-\u0443\u043f\u043e\u0434\u043e\u0431\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "282": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "282",
+    "attribute_value_name": "\u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0441\u043f\u043e\u0441\u043e\u0431\u0430 \u0438 \u043e\u0431\u0440\u0430\u0437\u0430 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f",
+    "next_attributes": []
+   },
+   "283": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "283",
+    "attribute_value_name": "\u041e\u0431\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u043c\u0435\u0441\u0442\u0430",
+    "next_attributes": []
+   },
+   "284": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "284",
+    "attribute_value_name": "\u041e\u0431\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0438",
+    "next_attributes": []
+   },
+   "285": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "285",
+    "attribute_value_name": "\u041e\u0431\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u043f\u0440\u0438\u0447\u0438\u043d\u044b",
+    "next_attributes": []
+   },
+   "286": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "286",
+    "attribute_value_name": "\u041e\u0431\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0446\u0435\u043b\u0438",
+    "next_attributes": []
+   }
+  }
+ },
+ "84": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "84",
+  "attribute_name": "\u0418\u0437\u043c\u0435\u043d\u044f\u0435\u043c\u043e\u0441\u0442\u044c",
+  "attribute_values": {
+   "287": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "287",
+    "attribute_value_name": "\u0418\u0437\u043c\u0435\u043d\u044f\u0435\u043c\u043e\u0435",
+    "next_attributes": [
+     "85"
+    ]
+   },
+   "295": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "295",
+    "attribute_value_name": "\u041d\u0435\u0438\u0437\u043c\u0435\u043d\u044f\u0435\u043c\u043e\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "85": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "85",
+  "attribute_name": "\u0421\u0442\u0435\u043f\u0435\u043d\u044c \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "288": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "288",
+    "attribute_value_name": "\u0421\u0440\u0430\u0432\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f",
+    "next_attributes": [
+     "86"
+    ]
+   },
+   "291": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "291",
+    "attribute_value_name": "\u041f\u0440\u0435\u0432\u043e\u0441\u0445\u043e\u0434\u043d\u0430\u044f",
+    "next_attributes": [
+     "87"
+    ]
+   },
+   "294": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "294",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "86": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "86",
+  "attribute_name": "\u0421\u043f\u043e\u0441\u043e\u0431 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0441\u0442\u0435\u043f\u0435\u043d\u0438 \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "289": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "289",
+    "attribute_value_name": "\u041f\u0440\u043e\u0441\u0442\u0430\u044f",
+    "next_attributes": []
+   },
+   "290": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "290",
+    "attribute_value_name": "\u0421\u043b\u043e\u0436\u043d\u0430\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "87": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "87",
+  "attribute_name": "\u0421\u043f\u043e\u0441\u043e\u0431 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0441\u0442\u0435\u043f\u0435\u043d\u0438 \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "292": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "292",
+    "attribute_value_name": "\u041f\u0440\u043e\u0441\u0442\u0430\u044f",
+    "next_attributes": []
+   },
+   "293": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "293",
+    "attribute_value_name": "\u0421\u043b\u043e\u0436\u043d\u0430\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "88": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "88",
+  "attribute_name": "\u0420\u0430\u0437\u0440\u044f\u0434 \u043f\u043e \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044e",
+  "attribute_values": {
+   "297": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "297",
+    "attribute_value_name": "\u0421\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0435 \u043f\u0440\u0438\u0440\u043e\u0434\u044b",
+    "next_attributes": []
+   },
+   "298": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "298",
+    "attribute_value_name": "\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0438 \u043f\u0441\u0438\u0445\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0435",
+    "next_attributes": []
+   },
+   "299": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "299",
+    "attribute_value_name": "\u042d\u043c\u043e\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u0430\u044f \u043e\u0446\u0435\u043d\u043a\u0430",
+    "next_attributes": []
+   },
+   "300": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "300",
+    "attribute_value_name": "\u041c\u043e\u0434\u0430\u043b\u044c\u043d\u0430\u044f \u043e\u043a\u0440\u0430\u0441\u043a\u0430",
+    "next_attributes": []
+   },
+   "301": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "301",
+    "attribute_value_name": "\u0414\u0440\u0443\u0433\u0438\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "89": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "89",
+  "attribute_name": "\u0421\u0442\u0435\u043f\u0435\u043d\u044c \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "302": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "302",
+    "attribute_value_name": "\u0421\u0440\u0430\u0432\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f",
+    "next_attributes": [
+     "90"
+    ]
+   },
+   "305": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "305",
+    "attribute_value_name": "\u041f\u0440\u0435\u0432\u043e\u0441\u0445\u043e\u0434\u043d\u0430\u044f",
+    "next_attributes": [
+     "91"
+    ]
+   },
+   "308": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "308",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "90": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "90",
+  "attribute_name": "\u0421\u043f\u043e\u0441\u043e\u0431 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0441\u0442\u0435\u043f\u0435\u043d\u0438 \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "303": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "303",
+    "attribute_value_name": "\u041f\u0440\u043e\u0441\u0442\u0430\u044f",
+    "next_attributes": []
+   },
+   "304": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "304",
+    "attribute_value_name": "\u0421\u043b\u043e\u0436\u043d\u0430\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "91": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "91",
+  "attribute_name": "\u0421\u043f\u043e\u0441\u043e\u0431 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0441\u0442\u0435\u043f\u0435\u043d\u0438 \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f",
+  "attribute_values": {
+   "306": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "306",
+    "attribute_value_name": "\u041f\u0440\u043e\u0441\u0442\u0430\u044f",
+    "next_attributes": []
+   },
+   "307": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "307",
+    "attribute_value_name": "\u0421\u043b\u043e\u0436\u043d\u0430\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "92": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "92",
+  "attribute_name": "\u0420\u0430\u0437\u0440\u044f\u0434 \u043f\u043e \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044e",
+  "attribute_values": {
+   "310": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "310",
+    "attribute_value_name": "\u0421\u043c\u044b\u0441\u043b\u043e\u0432\u0430\u044f",
+    "next_attributes": [
+     "93"
+    ]
+   },
+   "314": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "314",
+    "attribute_value_name": "\u041c\u043e\u0434\u0430\u043b\u044c\u043d\u0430\u044f",
+    "next_attributes": [
+     "94"
+    ]
+   },
+   "321": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "321",
+    "attribute_value_name": "\u042d\u043c\u043e\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e-\u044d\u043a\u0441\u043f\u0440\u0435\u0441\u0441\u0438\u0432\u043d\u0430\u044f",
+    "next_attributes": []
+   },
+   "322": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "322",
+    "attribute_value_name": "\u0414\u0440\u0443\u0433\u0430\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "93": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "93",
+  "attribute_name": "\u041a\u043b\u0430\u0441\u0441\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f \u0441\u043c\u044b\u0441\u043b\u043e\u0432\u044b\u0445 \u0447\u0430\u0441\u0442\u0438\u0446",
+  "attribute_values": {
+   "311": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "311",
+    "attribute_value_name": "\u0423\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u0430\u044f",
+    "next_attributes": []
+   },
+   "312": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "312",
+    "attribute_value_name": "\u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e-\u0443\u0442\u043e\u0447\u043d\u044f\u044e\u0449\u0430\u044f",
+    "next_attributes": []
+   },
+   "313": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "313",
+    "attribute_value_name": "\u0412\u044b\u0434\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e-\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "94": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "94",
+  "attribute_name": "\u041a\u043b\u0430\u0441\u0441\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f \u043c\u043e\u0434\u0430\u043b\u044c\u043d\u044b\u0445 \u0447\u0430\u0441\u0442\u0438\u0446",
+  "attribute_values": {
+   "315": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "315",
+    "attribute_value_name": "\u0423\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f",
+    "next_attributes": []
+   },
+   "316": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "316",
+    "attribute_value_name": "\u041e\u0442\u0440\u0438\u0446\u0430\u0442\u0435\u043b\u044c\u043d\u0430\u044f",
+    "next_attributes": []
+   },
+   "317": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "317",
+    "attribute_value_name": "\u0412\u043e\u043f\u0440\u043e\u0441\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f",
+    "next_attributes": []
+   },
+   "318": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "318",
+    "attribute_value_name": "\u0421\u0440\u0430\u0432\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f",
+    "next_attributes": []
+   },
+   "319": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "319",
+    "attribute_value_name": "\u0421\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u043e-\u043c\u043e\u0434\u0430\u043b\u044c\u043d\u0430\u044f",
+    "next_attributes": []
+   },
+   "320": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "320",
+    "attribute_value_name": "\u0414\u0440\u0443\u0433\u0438\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "95": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "95",
+  "attribute_name": "\u041f\u043e \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044e",
+  "attribute_values": {
+   "323": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "323",
+    "attribute_value_name": "\u041f\u0435\u0440\u0432\u0438\u0447\u043d\u0430\u044f",
+    "next_attributes": []
+   },
+   "324": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "324",
+    "attribute_value_name": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u043d\u0430\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "96": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "96",
+  "attribute_name": "\u041f\u043e \u0433\u0440\u0430\u043c\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0444\u0443\u043d\u043a\u0446\u0438\u0438",
+  "attribute_values": {
+   "325": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "325",
+    "attribute_value_name": "\u0424\u043e\u0440\u043c\u043e\u043e\u0431\u0440\u0430\u0437\u0443\u044e\u0449\u0430\u044f",
+    "next_attributes": []
+   },
+   "326": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "326",
+    "attribute_value_name": "\u0421\u043b\u043e\u0432\u043e\u043e\u0431\u0440\u0430\u0437\u0443\u044e\u0449\u0430\u044f",
+    "next_attributes": []
+   },
+   "327": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "327",
+    "attribute_value_name": "\u041d\u0435\u0442",
+    "next_attributes": []
+   }
+  }
+ },
+ "97": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "97",
+  "attribute_name": "\u041f\u043e \u0441\u043e\u0441\u0442\u0430\u0432\u0443",
+  "attribute_values": {
+   "329": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "329",
+    "attribute_value_name": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u043d\u044b\u0439",
+    "next_attributes": [
+     "98"
+    ]
+   },
+   "333": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "333",
+    "attribute_value_name": "\u041d\u0435\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "334": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "334",
+    "attribute_value_name": "\u0427\u0430\u0441\u0442\u044c \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u043d\u043e\u0433\u043e",
+    "next_attributes": []
+   }
+  }
+ },
+ "98": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "98",
+  "attribute_name": "\u041a\u043b\u0430\u0441\u0441\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u043d\u044b\u0445 \u043f\u0440\u0435\u0434\u043b\u043e\u0433\u043e\u0432",
+  "attribute_values": {
+   "330": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "330",
+    "attribute_value_name": "\u041d\u0430\u0440\u0435\u0447\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "331": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "331",
+    "attribute_value_name": "\u041e\u0442\u044b\u043c\u0435\u043d\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "332": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "332",
+    "attribute_value_name": "\u041e\u0442\u0433\u043b\u0430\u0433\u043e\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   }
+  }
+ },
+ "99": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "99",
+  "attribute_name": "\u0417\u043d\u0430\u0447\u0435\u043d\u0438\u044f \u043f\u0440\u0435\u0434\u043b\u043e\u0433\u043e\u0432",
+  "attribute_values": {
+   "335": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "335",
+    "attribute_value_name": "\u0412\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439",
+    "next_attributes": []
+   },
+   "336": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "336",
+    "attribute_value_name": "\u041f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "337": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "337",
+    "attribute_value_name": "\u0426\u0435\u043b\u0435\u0432\u043e\u0439",
+    "next_attributes": []
+   },
+   "338": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "338",
+    "attribute_value_name": "\u041f\u0440\u0438\u0447\u0438\u043d\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "339": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "339",
+    "attribute_value_name": "\u041e\u0431\u044a\u0435\u043a\u0442\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "340": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "340",
+    "attribute_value_name": "\u0421\u0440\u0430\u0432\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "341": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "341",
+    "attribute_value_name": "\u0421\u043e\u043f\u0440\u043e\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "342": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "342",
+    "attribute_value_name": "\u0423\u0441\u043b\u043e\u0432\u0438\u044f",
+    "next_attributes": []
+   },
+   "343": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "343",
+    "attribute_value_name": "\u0423\u0441\u0442\u0443\u043f\u043a\u0438",
+    "next_attributes": []
+   },
+   "344": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "344",
+    "attribute_value_name": "\u041e\u0431\u0440\u0430\u0437\u0430 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f",
+    "next_attributes": []
+   },
+   "345": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "345",
+    "attribute_value_name": "\u0423\u0434\u0430\u043b\u0435\u043d\u0438\u044f",
+    "next_attributes": []
+   },
+   "346": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "346",
+    "attribute_value_name": "\u0414\u0440\u0443\u0433\u043e\u0439",
+    "next_attributes": []
+   }
+  }
+ },
+ "100": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "100",
+  "attribute_name": "\u041f\u043e \u0441\u043e\u0441\u0442\u0430\u0432\u0443",
+  "attribute_values": {
+   "348": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "348",
+    "attribute_value_name": "\u041f\u0440\u043e\u0441\u0442\u043e\u0439",
+    "next_attributes": []
+   },
+   "349": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "349",
+    "attribute_value_name": "\u0427\u0430\u0441\u0442\u044c \u0441\u043e\u0441\u0442\u0430\u0432\u043d\u043e\u0433\u043e \u0441\u043e\u044e\u0437\u0430",
+    "next_attributes": []
+   }
+  }
+ },
+ "101": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "101",
+  "attribute_name": "\u041f\u043e \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u044e",
+  "attribute_values": {
+   "350": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "350",
+    "attribute_value_name": "\u041e\u0434\u0438\u043d\u043e\u0447\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "351": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "351",
+    "attribute_value_name": "\u0414\u0432\u043e\u0439\u043d\u043e\u0439",
+    "next_attributes": []
+   },
+   "352": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "352",
+    "attribute_value_name": "\u041f\u043e\u0432\u0442\u043e\u0440\u044f\u044e\u0449\u0438\u0439\u0441\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "102": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "102",
+  "attribute_name": "\u041f\u043e \u0441\u0438\u043d\u0442\u0430\u043a\u0441\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0444\u0443\u043d\u043a\u0446\u0438\u0438",
+  "attribute_values": {
+   "353": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "353",
+    "attribute_value_name": "\u0421\u043e\u0447\u0438\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": [
+     "103"
+    ]
+   },
+   "360": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "360",
+    "attribute_value_name": "\u041f\u043e\u0434\u0447\u0438\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": [
+     "104"
+    ]
+   },
+   "369": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "369",
+    "attribute_value_name": "\u041f\u043e\u0434\u0447\u0438\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u0432 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0438 \u0441\u043e\u0447\u0438\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e",
+    "next_attributes": []
+   }
+  }
+ },
+ "103": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "103",
+  "attribute_name": "\u0420\u0430\u0437\u0440\u044f\u0434",
+  "attribute_values": {
+   "354": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "354",
+    "attribute_value_name": "\u0421\u043e\u0435\u0434\u0438\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "355": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "355",
+    "attribute_value_name": "\u0421\u043e\u043f\u043e\u0441\u0442\u0430\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "356": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "356",
+    "attribute_value_name": "\u041f\u0440\u043e\u0442\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "357": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "357",
+    "attribute_value_name": "\u0420\u0430\u0437\u0434\u0435\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "358": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "358",
+    "attribute_value_name": "\u041f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "359": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "359",
+    "attribute_value_name": "\u041f\u043e\u044f\u0441\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   }
+  }
+ },
+ "104": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "104",
+  "attribute_name": "\u0420\u0430\u0437\u0440\u044f\u0434",
+  "attribute_values": {
+   "361": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "361",
+    "attribute_value_name": "\u0412\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0439",
+    "next_attributes": []
+   },
+   "362": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "362",
+    "attribute_value_name": "\u041f\u0440\u0438\u0447\u0438\u043d\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "363": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "363",
+    "attribute_value_name": "\u0426\u0435\u043b\u0435\u0432\u043e\u0439",
+    "next_attributes": []
+   },
+   "364": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "364",
+    "attribute_value_name": "\u0421\u043b\u0435\u0434\u0441\u0442\u0432\u0438\u044f",
+    "next_attributes": []
+   },
+   "365": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "365",
+    "attribute_value_name": "\u0423\u0441\u0442\u0443\u043f\u043a\u0438",
+    "next_attributes": []
+   },
+   "366": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "366",
+    "attribute_value_name": "\u0421\u0440\u0430\u0432\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "367": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "367",
+    "attribute_value_name": "\u0418\u0437\u044a\u044f\u0441\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439",
+    "next_attributes": []
+   },
+   "368": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "368",
+    "attribute_value_name": "\u0423\u0441\u043b\u043e\u0432\u0438\u044f",
+    "next_attributes": []
+   }
+  }
+ },
+ "105": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "105",
+  "attribute_name": "\u0420\u0430\u0437\u0440\u044f\u0434 \u043f\u043e \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044e",
+  "attribute_values": {
+   "371": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "371",
+    "attribute_value_name": "\u0412\u044b\u0440\u0430\u0436\u0430\u044e\u0449\u0435\u0435 \u0443\u0432\u0435\u0440\u0435\u043d\u043d\u043e\u0441\u0442\u044c",
+    "next_attributes": []
+   },
+   "372": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "372",
+    "attribute_value_name": "\u0412\u044b\u0440\u0430\u0436\u0430\u044e\u0449\u0435\u0435 \u043d\u0435\u0443\u0432\u0435\u0440\u0435\u043d\u043d\u043e\u0441\u0442\u044c",
+    "next_attributes": []
+   }
+  }
+ },
+ "106": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "106",
+  "attribute_name": "\u0421\u0438\u043d\u0442\u0430\u043a\u0441\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0440\u043e\u043b\u044c",
+  "attribute_values": {
+   "373": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "373",
+    "attribute_value_name": "\u0412\u0432\u043e\u0434\u043d\u043e\u0435 \u0441\u043b\u043e\u0432\u043e",
+    "next_attributes": []
+   },
+   "374": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "374",
+    "attribute_value_name": "\u0421\u043b\u043e\u0432\u043e-\u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
+    "next_attributes": []
+   }
+  }
+ },
+ "107": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "107",
+  "attribute_name": "\u041f\u043e \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044e",
+  "attribute_values": {
+   "376": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "376",
+    "attribute_value_name": "\u041f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "377": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "377",
+    "attribute_value_name": "\u041f\u0435\u0440\u0432\u043e\u043e\u0431\u0440\u0430\u0437\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "378": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "378",
+    "attribute_value_name": "\u0417\u0430\u0438\u043c\u0441\u0442\u0432\u043e\u0432\u0430\u043d\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "379": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "379",
+    "attribute_value_name": "\u0427\u0430\u0441\u0442\u044c \u0444\u0440\u0430\u0437\u0435\u043e\u043b\u043e\u0433\u0438\u0437\u043c\u0430",
+    "next_attributes": []
+   }
+  }
+ },
+ "108": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "108",
+  "attribute_name": "\u041f\u043e \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u044e",
+  "attribute_values": {
+   "380": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "380",
+    "attribute_value_name": "\u042d\u043c\u043e\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "381": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "381",
+    "attribute_value_name": "\u0418\u043c\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0435",
+    "next_attributes": []
+   },
+   "382": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "382",
+    "attribute_value_name": "\u0424\u043e\u0440\u043c\u0430 \u044d\u0442\u0438\u043a\u0435\u0442\u0430",
+    "next_attributes": []
+   }
+  }
+ },
+ "109": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "109",
+  "attribute_name": "\u042f\u0437\u044b\u043a",
+  "attribute_values": {
+   "385": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "385",
+    "attribute_value_name": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "386": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "386",
+    "attribute_value_name": "\u0410\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "387": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "387",
+    "attribute_value_name": "\u041d\u0435\u043c\u0435\u0446\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "388": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "388",
+    "attribute_value_name": "\u041b\u0430\u0442\u0438\u043d\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "389": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "389",
+    "attribute_value_name": "\u0418\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "390": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "390",
+    "attribute_value_name": "\u041f\u043e\u043b\u044c\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "391": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "391",
+    "attribute_value_name": "\u0413\u0440\u0435\u0447\u0435\u0441\u043a\u0438\u0439",
+    "next_attributes": []
+   },
+   "392": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "392",
+    "attribute_value_name": "\u0414\u0440\u0443\u0433\u043e\u0439",
+    "next_attributes": []
+   }
+  }
+ },
+ "110": {
+  "py/object": "lib.attribute.Attribute",
+  "attribute_id": "110",
+  "attribute_name": "\u0412\u0438\u0434 \u0446\u0438\u0442\u0430\u0442\u044b",
+  "attribute_values": {
+   "394": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "394",
+    "attribute_value_name": "\u041f\u0440\u043e\u0437\u0430\u0438\u0447\u0435\u0441\u043a\u0430\u044f",
+    "next_attributes": []
+   },
+   "395": {
+    "py/object": "lib.attribute.AttributeValue",
+    "attribute_value_id": "395",
+    "attribute_value_name": "\u0421\u0442\u0438\u0445\u043e\u0442\u0432\u043e\u0440\u043d\u0430\u044f",
+    "next_attributes": []
+   }
+  }
+ }
+}

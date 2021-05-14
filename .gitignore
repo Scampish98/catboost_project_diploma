@@ -1,0 +1,13 @@
+__pycache__/
+.idea/
+.mypy_cache/
+/models/
+/venv/
+catboost_info/
+
+/data/catboost_data.tsv
+/data/meta.json
+/*.py
+/*.txt
+/*.tsv
+/*.json

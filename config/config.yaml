@@ -1,0 +1,56 @@
+catboost_params:
+  iterations: 100
+  learning_rate: 0.1
+  loss_function: MultiClass
+  task_type: CPU
+model_type: classifier
+model_version: 2
+number_words_after: 5
+number_words_before: 5
+refit_model: false
+logging_level: stats
+smart_split: true
+use_calculated_parameters: true
+use_initial_form: true
+lemmer_type: smalt_stemmer
+language_filter: true
+excluded_attributes:
+  - 105
+  - 106
+  - 107
+  - 108
+  - 109
+  - 110
+excluded_attribute_values:
+  - 370
+  - 371
+  - 372
+  - 373
+  - 374
+  - 375
+  - 376
+  - 377
+  - 378
+  - 379
+  - 380
+  - 381
+  - 382
+  - 383
+  - 384
+  - 385
+  - 386
+  - 387
+  - 388
+  - 389
+  - 390
+  - 391
+  - 392
+  - 393
+  - 394
+  - 395
+  - 396
+  - 397
+  - 398
+  - 399
+  - 400
+  - 401
