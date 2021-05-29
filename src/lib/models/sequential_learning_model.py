@@ -37,9 +37,8 @@ class BaseSequentialLearningModel(Model, abc.ABC):  # type: ignore
         self._logger.debug("validation_data load finished!")
         train_data = self.clean_excluded(train_data)
         validation_data = self.clean_excluded(validation_data)
-        if self.config.language_filter:
-            train_data = self.clean_language(train_data)
-            validation_data = self.clean_language(validation_data)
+        self.set_calculated_parameters_weight(train_data)
+        self.set_calculated_parameters_weight(validation_data)
 
         non_trained_names = self._get_non_trained_names()
         params = self.get_params()
@@ -52,7 +51,7 @@ class BaseSequentialLearningModel(Model, abc.ABC):  # type: ignore
             if name not in self.completed_models and name not in non_trained_names:
                 self._logger.info("Start train model %s", name)
                 trained_model = self.get_catboost_model(
-                    train_data.copy(),
+                    train_data,
                     validation_data,
                     params,
                     name,
@@ -88,12 +87,12 @@ class BaseSequentialLearningModel(Model, abc.ABC):  # type: ignore
 
     def predict_from_data(self, data: Dataframe) -> Dataframe:
         params = self.get_params()
-        russian, other = self.split_by_language(data)
+        russian, other, additional_params = self.split_by_heuristics(data)
 
         additional_data_rus = self.init_additional_data(russian)
-        additional_data_oth = self.init_additional_data(other)
+        other.update(self.init_additional_data(other))
         russian = russian[params]
-        other = other[params]
+        other = other[params + additional_params]
 
         for name in self.completed_models:
             self._logger.info("Start predict by model %s", name)
@@ -113,11 +112,8 @@ class BaseSequentialLearningModel(Model, abc.ABC):  # type: ignore
 
             self._logger.info("Finish predict by model %s", name)
 
-        self.detect_language(other)
-        other.update(additional_data_oth)
-
         russian.update(additional_data_rus)
-        return russian
+        return russian + other
 
     @staticmethod
     @abc.abstractmethod

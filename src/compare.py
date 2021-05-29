@@ -6,9 +6,24 @@ from lib import (
 
 
 @click.command()
-@click.option("--result-data", type=str, help="Path to result data tsv")
-@click.option("--validate-data", type=str, help="Path to validate data tsv")
-def compare(result_data: str, validate_data: str) -> None:
+@click.option("--result-data", "-r", type=str, help="Path to result data tsv")
+@click.option("--validate-data", "-v", type=str, help="Path to validate data tsv")
+@click.option(
+    "--result-with-weights",
+    is_flag=True,
+    help="Result data with weights or not",
+)
+@click.option(
+    "--validate-with-weights",
+    is_flag=True,
+    help="Validate data with weights or not",
+)
+def compare(
+    result_data: str,
+    validate_data: str,
+    result_with_weights: bool,
+    validate_with_weights: bool,
+) -> None:
     non_compared_names = {
         "WORD",
         "initial_form",
@@ -19,10 +34,12 @@ def compare(result_data: str, validate_data: str) -> None:
     for word_id in range(1, 6):
         non_compared_names.add(f"word_{word_id}")
         non_compared_names.add(f"word_{-word_id}")
-    result_data = dataframe.Dataframe.from_tsv(result_data).get_sorted_by_name("WORD")
-    validate_data = dataframe.Dataframe.from_tsv(validate_data)[
-        result_data.names
-    ].get_sorted_by_name("WORD")
+    result_data = dataframe.Dataframe.from_tsv(
+        result_data, with_weights=result_with_weights
+    ).get_sorted_by_name("WORD")
+    validate_data = dataframe.Dataframe.from_tsv(
+        validate_data, with_weights=validate_with_weights
+    )[result_data.names].get_sorted_by_name("WORD")
     total_cnt = 0
     total_bad_cnt = 0
     total_good_cnt = 0

@@ -20,8 +20,7 @@ from typing import (
 
 from catboost import Pool
 
-
-from .logging import LoggedClass
+from .logging import create_logger, LoggedClass
 
 
 class Dataframe(LoggedClass):
@@ -51,37 +50,29 @@ class Dataframe(LoggedClass):
             yield list(row)
 
     def get_rows(self, row_ids: Union[List[int], AbstractSet[int]]) -> Dataframe:
-        new_data = []
-        for column in self.data:
-            new_data.append([column[row_id] for row_id in row_ids])
         return Dataframe(
             len(row_ids),
-            new_data,
-            deepcopy(self.names),
-            deepcopy(self.weights),
-            deepcopy(self.name_ids),
+            [[column[row_id] for row_id in row_ids] for column in self.data],
+            self.names.copy(),
+            self.weights.copy() if self.weights is not None else None,
+            self.name_ids.copy(),
             self.logging_level,
         )
 
-    def add_row(self, row: List[str], names: List[str]) -> None:
-        for name in names:
-            if name not in self.name_ids:
-                self.add_column(name, ["0"] * self.size)
-        for name in self.names:
-            if name not in names:
-                self.data[self.name_ids[name]].append("0")
-            else:
-                self.data[self.name_ids[name]].append(row[names.index(name)])
-        self.size += 1
-
-    def add_rows(self, rows: List[List[str]], names: List[str]) -> None:
-        for row in rows:
-            self.add_row(row, names)
+    def __add__(self, other: Dataframe) -> Dataframe:
+        result = self.copy()
+        result.concatenate(other)
+        return result
 
     def concatenate(self, data: Dataframe) -> None:
         for name in data.names:
             if name not in self.name_ids:
-                self.add_column(name, ["0"] * self.size)
+                weight = (
+                    data.weights[data.name_ids[name]]
+                    if data.weights is not None
+                    else None
+                )
+                self.add_column(name, ["0"] * self.size, weight)
         for name in self.names:
             if name in data.name_ids:
                 self.data[self.name_ids[name]] += data.data[data.name_ids[name]]
@@ -89,84 +80,24 @@ class Dataframe(LoggedClass):
                 self.data[self.name_ids[name]] += ["0"] * data.size
         self.size += data.size
 
-    def filter_by_function(
-        self,
-        func: Callable[[List[str], Optional[List[str]], Optional[List[float]]], bool],
-    ) -> Dataframe:
-        result = [row for row in self.read() if func(row, self.names, self.weights)]
-        return Dataframe(
-            size=len(result),
-            data=zip(*result),
-            names=self.names,
-            weights=self.weights,
-            name_ids=self.name_ids,
-            logging_level=self.logging_level,
-        )
-
-    def exclude_by_function(
-        self,
-        func: Callable[[List[str], Optional[List[str]], Optional[List[float]]], bool],
-    ) -> Dataframe:
-        result = [row for row in self.read() if not func(row, self.names, self.weights)]
-        return Dataframe(
-            size=len(result),
-            data=zip(*result),
-            names=self.names,
-            weights=self.weights,
-            name_ids=self.name_ids,
-            logging_level=self.logging_level,
-        )
-
-    def split_by_function(
-        self,
-        func: Callable[[List[str], Optional[List[str]], Optional[List[float]]], bool],
-    ) -> Tuple[Dataframe, Dataframe]:
-        self._logger.info("Splitting dataframe started!")
-        true_func = []
-        false_func = []
-
-        cnt = 0
-        for row in self.read():
-            if func(row, self.names, self.weights):
-                true_func.append(row)
-            else:
-                false_func.append(row)
-            cnt += 1
-            if cnt % 1000 == 0:
-                self._logger.info("%d complete", cnt)
-
-        self._logger.info("Splitting dataframe finished!")
-
-        return (
-            Dataframe(
-                size=len(true_func),
-                data=zip(*true_func),
-                names=self.names,
-                weights=self.weights,
-                name_ids=self.name_ids,
-                logging_level=self.logging_level,
-            ),
-            Dataframe(
-                size=len(false_func),
-                data=zip(*false_func),
-                names=self.names,
-                weights=self.weights,
-                name_ids=self.name_ids,
-                logging_level=self.logging_level,
-            ),
-        )
-
     def get_columns(
         self,
         column_names: List[str],
         default_value: str = "0",
     ) -> Dataframe:
+        self._logger.debug("weights: %s", self.weights)
+        self._logger.debug("names: %s", self.names)
+        self._logger.debug("name_ids: %s", self.name_ids)
+        self._logger.debug("column_names: %s", column_names)
+        self._logger.debug("len(data): %s", len(self.data))
+        column_names = list(set(column_names))
         new_data = []
         new_weights: Optional[List[float]] = [] if self.weights is not None else None
         for name in column_names:
             if name in self.name_ids:
                 column_id = self.name_ids[name]
-                new_data.append(deepcopy(self.data[column_id]))
+                self._logger.debug("column_id: %s", column_id)
+                new_data.append(self.data[column_id].copy())
                 if new_weights is not None:
                     assert self.weights is not None
                     new_weights.append(self.weights[column_id])
@@ -175,7 +106,7 @@ class Dataframe(LoggedClass):
         return Dataframe(
             size=self.size,
             data=new_data,
-            names=deepcopy(column_names),
+            names=column_names.copy(),
             weights=new_weights,
             logging_level=self.logging_level,
         )
@@ -184,22 +115,42 @@ class Dataframe(LoggedClass):
         return Dataframe(
             self.size,
             deepcopy(self.data),
-            deepcopy(self.names),
-            deepcopy(self.weights),
-            deepcopy(self.name_ids),
+            self.names.copy(),
+            self.weights.copy() if self.weights is not None else None,
+            self.name_ids.copy(),
             self.logging_level,
         )
 
-    def get_catboost_pool(self, param_names: Iterable[str], target_name: str) -> Pool:
-        temp_data = self[param_names]
-        labels = self[target_name]
+    def get_catboost_pool(
+        self,
+        param_names: Optional[Iterable[str]] = None,
+        target_name: Optional[str] = None,
+    ) -> Pool:
+        temp_data = self[param_names] if param_names is not None else self.copy()
+        labels = self[target_name] if target_name is not None else None
         self._logger.debug("temp_data: %s", temp_data)
         self._logger.debug("labels: %s", labels)
         return Pool(
-            data=list(zip(*temp_data.data)),
-            weight=temp_data.weights,
+            data=list(zip(*temp_data.data)),  # .get_sorted_data_by_column_names())),
             label=labels,
-            cat_features=list(range(len(temp_data.data))),
+            feature_names=temp_data.names,
+            cat_features=temp_data.names,
+        )
+
+    def get_sorted_data_by_column_names(self) -> List[List[str]]:
+        return [self.data[self.name_ids[name]] for name in sorted(self.names)]
+
+    def get_sorted_by_column_names(self) -> Dataframe:
+        names = sorted(self.names)
+        return Dataframe(
+            size=self.size,
+            data=[self.data[self.name_ids[name]] for name in names],
+            names=names,
+            weights=(
+                [self.weights[self.name_ids[name]] for name in names]
+                if self.weights is not None
+                else None
+            ),
         )
 
     def get_sorted_by_name(self, key_name: str = "WORD") -> Dataframe:
@@ -225,8 +176,8 @@ class Dataframe(LoggedClass):
         self.data.append(column_values)
         if self.names is not None:
             self.names.append(column_name)
-        if column_weight is not None and self.weights is not None:
-            self.weights.append(column_weight)
+        if self.weights is not None:
+            self.weights.append(column_weight if column_weight is not None else 0)
 
     def to_csv(self, output_file_path: str, delimiter: str = "\t") -> None:
         with open(output_file_path, "w", newline="", encoding="utf-8") as output_stream:
@@ -267,12 +218,18 @@ class Dataframe(LoggedClass):
     def _get_columns(self, item: List[str]) -> Dataframe:
         return self.get_columns(item)
 
-    def __setitem__(self, key: str, value: List[str]) -> None:
+    def __setitem__(
+        self, key: str, value: Union[List[str], Tuple[List[str], float]]
+    ) -> None:
+        weight = None
+        if isinstance(value, tuple):
+            weight = value[1]
+            value = value[0]
         if key in self.name_ids:
             row_id = self.name_ids[key]
             self.data[row_id] = list(value)
         else:
-            self.add_column(key, value)
+            self.add_column(key, value, weight)
 
     def __contains__(self, item: str) -> bool:
         return self.name_ids is not None and item in self.name_ids
@@ -294,14 +251,26 @@ class Dataframe(LoggedClass):
         delimiter: str = "\t",
         with_names: bool = True,
         with_weights: bool = False,
+        logging_level: str = "info",
     ) -> Dataframe:
         with open(file_path, "r", encoding="utf8", newline="") as input_stream:
             tsv_reader = csv.reader(
                 input_stream, delimiter=delimiter, lineterminator="\n"
             )
-            weights = map(float, next(tsv_reader)) if with_weights else None
-            names = next(tsv_reader) if with_names else None
+            weights = (
+                [float(item) for item in next(tsv_reader)] if with_weights else None
+            )
+            names = list(next(tsv_reader)) if with_names else None
 
+            with create_logger("info") as logger:
+                logger.info("weights: %s", weights)
+                logger.info("names: %s", names)
             lines = list(zip(*tsv_reader))
             size = len(lines[0]) if len(lines) else 0
-        return cls(size=size, data=lines, names=names, weights=weights)
+        return cls(
+            size=size,
+            data=lines,
+            names=names,
+            weights=weights,
+            logging_level=logging_level,
+        )

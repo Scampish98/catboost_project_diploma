@@ -10,23 +10,26 @@ from lib import (
 
 
 def recovery_result(data: dataframe.Dataframe) -> str:
-    interim = [
-        {
-            "word": row[data.name_ids["WORD"]],
-            "word_id": row[data.name_ids["word_id"]],
-            "sentence_id": row[data.name_ids["sentence_id"]],
-            "paragraph_id": row[data.name_ids["paragraph_id"]],
-            "initial_form": row[data.name_ids["initial_form"]],
-            "result": recovery_dfs(
-                attribute.load_attribute_tree(),
-                "1",
-                data.name_ids,
-                row,
-            ),
-        }
-        for row in data.read()
-    ]
-    return json.dumps(interim, indent=2, ensure_ascii=False)
+    return json.dumps(
+        [
+            {
+                "word": row[data.name_ids["WORD"]],
+                "word_id": row[data.name_ids["word_id"]],
+                "sentence_id": row[data.name_ids["sentence_id"]],
+                "paragraph_id": row[data.name_ids["paragraph_id"]],
+                "initial_form": row[data.name_ids["initial_form"]],
+                "result": recovery_dfs(
+                    attribute.load_attribute_tree(),
+                    "1",
+                    data.name_ids,
+                    row,
+                ),
+            }
+            for row in data.read()
+        ],
+        indent=2,
+        ensure_ascii=False,
+    )
 
 
 def recovery_dfs(

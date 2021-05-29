@@ -14,9 +14,8 @@ class SequentialLearningBasedOnAttributeTreeModel(Model):  # type: ignore
         validate_data_file_path: Optional[str] = None,
     ) -> None:
         input_data = self._get_dataset(train_data_file_path)
-        if self.config.language_filter:
-            input_data = self.clean_language(input_data)
         input_data = self.clean_excluded(input_data)
+        self.set_calculated_parameters_weight(input_data)
         attribute_tree = attribute.load_attribute_tree()
         params = self.get_params()
         self._train_dfs(
@@ -43,9 +42,10 @@ class SequentialLearningBasedOnAttributeTreeModel(Model):  # type: ignore
         if int(target_name) in self.config.excluded_attributes:
             self._logger.info("Skip %s from excluded_attributes", trained_model_name)
             return
-        column_data = input_data[target_name]
-        non_zero_ids = [row_id for row_id in ids if column_data[row_id] != "0"]
-        if len(non_zero_ids) == 0:
+        non_zero_ids = [
+            row_id for row_id in ids if input_data[target_name][row_id] != "0"
+        ]
+        if not non_zero_ids:
             return
         self._logger.info("Start train model %s", trained_model_name)
         trained_model = self.get_catboost_model(
@@ -93,29 +93,29 @@ class SequentialLearningBasedOnAttributeTreeModel(Model):  # type: ignore
             params.pop()
 
     def predict_from_data(self, input_data: Dataframe) -> Dataframe:
-        russian, other = self.split_by_language(input_data)
-        attribute_tree = attribute.load_attribute_tree()
         params = self.get_params()
-        result_data = russian[params]
-        additional_data_rus = self.init_additional_data(russian)
-        additional_data_oth = self.init_additional_data(other)
-        for key in self.default_values.keys():
-            additional_data_rus.pop(key, None)
-            additional_data_oth.pop(key, None)
+        self._logger.debug("input_data size: %s", input_data.size)
+        russian, other, additional_params = self.split_by_heuristics(input_data)
+        self._logger.debug("russian size: %s", russian.size)
+        attribute_tree = attribute.load_attribute_tree()
+
+        additional_data_rus = self.init_additional_data(russian, with_defaults=False)
+        additional_data_oth = self.init_additional_data(other, with_defaults=False)
+
+        russian = russian[params]
+        other = other[params + additional_params]
+
         self._predict_dfs(
-            result_data,
+            russian,
             list(range(len(russian))),
             params,
             ["1"],
             attribute_tree,
         )
 
-        self.detect_language(other)
         other.update(additional_data_oth)
-        result_data.update(additional_data_rus)
-        result_data.concatenate(other)
-
-        return result_data
+        russian.update(additional_data_rus)
+        return russian + other
 
     def _predict_dfs(
         self,
@@ -130,7 +130,10 @@ class SequentialLearningBasedOnAttributeTreeModel(Model):  # type: ignore
             return
         target_name = prefix_target_names[-1]
         if target_name not in data:
-            data[target_name] = ["0"] * len(data)
+            data[target_name] = (
+                ["0"] * len(data),
+                self.calculated_parameters_weight if self.use_weights else None,
+            )
 
         self._logger.info("Start predict by %s", trained_model_name)
 

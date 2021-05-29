@@ -90,15 +90,18 @@ class Model(LoggedClass, abc.ABC):
     # @staticmethod
     def predict(self, params_data: Dataframe, trained_model: CatBoost) -> Iterator[str]:
         self._logger.debug("Predict params_data: %s", params_data)
-        for item in trained_model.predict(list(zip(*params_data.data))):
+        for item in trained_model.predict(params_data.get_catboost_pool()):
             yield str(int(item))
 
-    def init_additional_data(self, data: Dataframe) -> MutableMapping[str, List[str]]:
+    def init_additional_data(
+        self, data: Dataframe, with_defaults: bool = True
+    ) -> MutableMapping[str, List[str]]:
         self._logger.debug("init_additional_data data type: %s", type(data))
         additional_data = {}
         total_len = len(data)
-        for name, value in self.default_values.items():
-            additional_data[name] = [value] * total_len
+        if with_defaults:
+            for name, value in self.default_values.items():
+                additional_data[name] = [value] * total_len
 
         for additional_data_name in ["word_id", "sentence_id", "paragraph_id"]:
             try:
@@ -140,6 +143,14 @@ class Model(LoggedClass, abc.ABC):
             )
         return trained_model
 
+    def set_calculated_parameters_weight(self, data: Dataframe) -> None:
+        if data is None or data.weights is None:
+            return
+        params = self.get_params()
+        for name in data.names:
+            if name not in params:
+                data.weights[data.name_ids[name]] = self.calculated_parameters_weight
+
     def fit(
         self,
         train_data: Dataframe,
@@ -163,7 +174,7 @@ class Model(LoggedClass, abc.ABC):
             train = train_data.get_catboost_pool(param_names, target_name)
             validation = validation_data.get_catboost_pool(param_names, target_name)
 
-        trained_model = self.build()
+        trained_model = self.build(train_data[param_names])
         trained_model.fit(train, eval_set=validation)
         return trained_model
 
@@ -191,48 +202,57 @@ class Model(LoggedClass, abc.ABC):
             logging_level=self.logging_level,
         )
 
-    def clean_language(self, data: Optional[Dataframe]) -> Optional[Dataframe]:
-        if not data:
-            return None
-        if not data.name_ids or "WORD" not in data.name_ids:
-            return data
-        self._logger.info("clean_language started!")
-        words = data["WORD"]
-        russian_rows = []
-        detector = LanguageDetector(logging_level=self.logging_level)
-        for row_id, iso in enumerate(detector.get_language_iso_batch(words)):
-            if iso == "ru":
-                russian_rows.append(row_id)
-        self._logger.info("clean_language finished!")
-        return data.get_rows(russian_rows)
+    def split_by_heuristics(
+        self, data: Dataframe
+    ) -> Tuple[Dataframe, Dataframe, List[str]]:
+        (
+            linguistic,
+            non_linguistic,
+            additional_linguistic_params,
+        ) = self.split_by_non_linguistic(data)
+        russian, other, additional_language_params = self.split_by_language(linguistic)
+        return (
+            russian,
+            non_linguistic + other,
+            additional_linguistic_params + additional_language_params,
+        )
 
-    def detect_language(self, data: Dataframe) -> None:
-        detector = LanguageDetector(logging_level=self.logging_level)
-        other_result_data = defaultdict(list)
-        words = data["WORD"]
+    def split_by_non_linguistic(
+        self, data: Dataframe
+    ) -> Tuple[Dataframe, Dataframe, List[str]]:
+        linguistic = []
+        non_linguistic = []
+        for row_id, word in enumerate(data["WORD"]):
+            if self._check_linguistic(word):
+                linguistic.append(row_id)
+            else:
+                non_linguistic.append(row_id)
+        non_linguistic = data.get_rows(non_linguistic)
+        non_linguistic.update({"1": ["399"] * non_linguistic.size})
+        return data.get_rows(linguistic), non_linguistic, ["1"]
 
-        for row_id, language in enumerate(detector.get_language_batch(words)):
-            lang, lang_id = language
-            other_result_data["1"].append("384")
-            other_result_data["109"].append(lang_id)
+    def _check_linguistic(self, word: str) -> bool:
+        return word.replace("'", "").replace("-", "").isalpha()
 
-        data.update(other_result_data)
-
-    def split_by_language(self, data: Dataframe) -> Tuple[Dataframe, Dataframe]:
-        if not self.config.language_filter:
-            return data, Dataframe(0, [], data.names)
-        words = data["WORD"]
+    def split_by_language(
+        self, data: Dataframe
+    ) -> Tuple[Dataframe, Dataframe, List[str]]:
         russian = []
         other = []
+        other_result_data = defaultdict(list)
         detector = LanguageDetector(logging_level=self.logging_level)
-        for row_id, iso in enumerate(detector.get_language_iso_batch(words)):
+        for row_id, iso in enumerate(detector.get_language_iso_batch(data["WORD"])):
             if iso == "ru":
                 russian.append(row_id)
             else:
                 other.append(row_id)
+                other_result_data["1"].append("384")
+                other_result_data["109"].append(detector.get_language_by_iso(iso)[1])
             if row_id % 1000 == 0:
                 self._logger.info(f"{row_id} complete")
-        return data.get_rows(russian), data.get_rows(other)
+        other = data.get_rows(other)
+        other.update(other_result_data)
+        return data.get_rows(russian), other, ["1", "109"]
 
     @staticmethod
     def split(data: Dataframe, target_name: str) -> Tuple[Dataframe, Dataframe]:
@@ -276,12 +296,8 @@ class Model(LoggedClass, abc.ABC):
             os.path.join(self.directory_path, self.get_name(target_name))
         )
 
-    def build(self) -> CatBoost:
-        if self.type == "classifier":
-            return CatBoostClassifier(**self.get_catboost_params())
-        elif self.type == "regressor":
-            return CatBoostRegressor(**self.get_catboost_params())
-        raise TypeError(f"Unexpected type of the model {self.type}")
+    def build(self, data: Optional[Dataframe] = None) -> CatBoost:
+        return CatBoostClassifier(**self.get_catboost_params(data))
 
     @staticmethod
     def get_name(name: str) -> str:
@@ -302,16 +318,18 @@ class Model(LoggedClass, abc.ABC):
     def key(self) -> str:
         return self.config.as_key()
 
-    @property
-    def type(self) -> str:
-        return self.config.model_type
-
     def as_json(self) -> MutableMapping[str, Any]:
         return self.__dict__.copy()
 
-    def get_catboost_params(self) -> MutableMapping[str, Any]:
+    def get_catboost_params(
+        self, data: Optional[Dataframe] = None
+    ) -> MutableMapping[str, Any]:
         catboost_params = self.config.catboost_params.copy()
         catboost_params["logging_level"] = LOGGING_LEVELS[self.logging_level].catboost
+        if data is not None and self.use_weights:
+            catboost_params["feature_weights"] = {
+                name: data.weights[index] for name, index in data.name_ids.items()
+            }
         return catboost_params
 
     def get_params(self) -> List[str]:
@@ -337,23 +355,31 @@ class Model(LoggedClass, abc.ABC):
     def use_calculated_parameters(self) -> bool:
         return self.config.use_calculated_parameters
 
+    @property
+    def use_weights(self):
+        return self.config.use_weights
+
+    @property
+    def calculated_parameters_weight(self) -> Optional[float]:
+        return self.config.calculated_parameters_weight
+
     def __str__(self) -> str:
         model_data = self.as_json()
         model_data["config"] = self.config.as_json()
         return json.dumps(model_data, sort_keys=True, ensure_ascii=False, indent=2)
 
-    @staticmethod
     def _get_dataset(
+        self,
         file_path: str,
         delimiter: str = "\t",
         with_names: bool = True,
-        with_weights: bool = False,
     ) -> Dataframe:
         return Dataframe.from_tsv(
             file_path=file_path,
             delimiter=delimiter,
             with_names=with_names,
-            with_weights=with_weights,
+            with_weights=self.use_weights,
+            logging_level=self.logging_level,
         )
 
 

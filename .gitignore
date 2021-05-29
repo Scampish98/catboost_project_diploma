@@ -5,7 +5,7 @@ __pycache__/
 /venv/
 catboost_info/
 
-/data/catboost_data.tsv
+/data/catboost_data*.tsv
 /data/meta.json
 /*.py
 /*.txt

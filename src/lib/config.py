@@ -8,12 +8,13 @@ from .logging import create_logger, LoggedClass
 
 
 class Config(LoggedClass):
+    default_calculated_parameters_weight: float = 0.75
+
     def __init__(
         self,
         iterations: int = 100,
         loss_function: Optional[str] = None,
         learning_rate: Optional[float] = None,
-        model_type: str = "classifier",
         task_type: str = "CPU",
         number_words_before: int = 5,
         number_words_after: int = 5,
@@ -21,13 +22,19 @@ class Config(LoggedClass):
         smart_split: bool = True,
         model_version: int = 0,
         use_calculated_parameters: bool = True,
+        use_weights: bool = False,
+        calculated_parameters_weight: Optional[float] = None,
         refit_model: bool = False,
         logging_level: str = "stats",
         lemmer_type: str = "smalt_stemmer",
-        language_filter: bool = True,
         excluded_attributes: Optional[List[int]] = None,
         excluded_attribute_values: Optional[List[int]] = None,
     ):
+        if all(
+            [use_calculated_parameters, use_weights, not calculated_parameters_weight]
+        ):
+            calculated_parameters_weight = self.default_calculated_parameters_weight
+
         super().__init__(logging_level)
         self.catboost_params = {
             "iterations": iterations,
@@ -35,33 +42,33 @@ class Config(LoggedClass):
             "learning_rate": learning_rate,
             "task_type": task_type,
         }
-        self.model_type = model_type
-        self.number_words_before = max(min(number_words_before, 5), 0)
-        self.number_words_after = max(min(number_words_after, 5), 0)
+        self.number_words_before = max(min(number_words_before, 20), 0)
+        self.number_words_after = max(min(number_words_after, 20), 0)
         self.use_initial_form = use_initial_form
         self.smart_split = smart_split
         self.model_version = model_version
         self.use_calculated_parameters = use_calculated_parameters
+        self.use_weights = use_weights
+        self.calculated_parameters_weight = calculated_parameters_weight
         self.refit_model = refit_model
         self.logging_level = logging_level
         self.lemmer_type = lemmer_type
-        self.language_filter = language_filter
         self.excluded_attributes = excluded_attributes or []
         self.excluded_attribute_values = excluded_attribute_values or []
 
     @classmethod
     def from_file(cls, path: str) -> Config:
-        with open(path, "r", encoding="utf-8") as input_stream:
-            try:
-                config_data = yaml.load(input_stream, Loader=yaml.SafeLoader)
-                config_data.update(config_data.pop("catboost_params"))
-                return cls(**config_data)
-            except Exception as e:
-                with create_logger() as logger:
+        with create_logger() as logger:
+            with open(path, "r", encoding="utf-8") as input_stream:
+                try:
+                    config_data = yaml.load(input_stream, Loader=yaml.SafeLoader)
+                    config_data.update(config_data.pop("catboost_params"))
+                    return cls(**config_data)
+                except Exception as e:
                     logger.error(
                         "Exception during initialization config from file: %s", e
                     )
-                raise
+                    raise
 
     def as_key(self) -> str:
         key_data = self.as_json()

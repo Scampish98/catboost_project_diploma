@@ -62,6 +62,7 @@ def prepare_text(path: str, config: global_config.Config) -> dataframe.Dataframe
         for sentence_id, sentence_text in enumerate(sentences):
             words = tokenizer.tokenize(sentence_text)
             for word_id, word in enumerate(words):
+                print(word)
                 words_data["WORD"].append(word)
                 words_data["initial_form"].append(
                     lemmers.get_initial_form(word, config.lemmer_type)

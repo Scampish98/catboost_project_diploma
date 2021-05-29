@@ -2,9 +2,11 @@ import csv
 import os
 import re
 import time
-from textblob import TextBlob
 from typing import List, Mapping
 from urllib.error import HTTPError
+
+from google_trans_new import google_translator
+from textblob import TextBlob
 
 from .logging import LoggedClass
 
@@ -24,6 +26,7 @@ class LanguageDetector(LoggedClass):
         "pl": ["Польский", "390"],
         "el": ["Греческий", "391"],
     }
+    default_language = ["Другой", "392"]
     last_queries = []
 
     def check_russian(self, word: str) -> bool:
@@ -66,42 +69,40 @@ class LanguageDetector(LoggedClass):
                     writer.writerow([key, value])
         return result
 
+    def check_time(self) -> None:
+        while len(self.last_queries) == 500:
+            if time.time() - self.last_queries[0] > 60:
+                self.last_queries.pop(0)
+            else:
+                time.sleep(0.1)
+
     def get_language_iso(self, word: str) -> str:
         self._logger.debug("%s get_language_iso", word)
         if self.check_russian(word):
             return "ru"
-        languages = set()
-        for _ in range(5):
+        translator = google_translator()
+        for _ in range(3):
             try:
-                while len(self.last_queries) == 500:
-                    if time.time() - self.last_queries[0] > 60:
-                        self.last_queries.pop(0)
-                    else:
-                        time.sleep(0.1)
-                lang = TextBlob(word).detect_language()
+                self.check_time()
+                lang = translator.detect(word)[0]
                 self.last_queries.append(time.time())
-                if "un" != lang:
-                    languages.add(lang)
+                return lang
             except HTTPError as e:
                 self._logger.info("Http Error during detect language: %s", e)
                 time.sleep(1)
-                continue
             except Exception as e:
                 self._logger.debug("Exception during detect language: %s", e)
             break
-
-        if "ru" in languages:
-            return "ru"
-        if len(languages) == 1:
-            return list(languages)[0]
-        self._logger.debug("Unknown language: %s", word)
         return "unknown"
 
     def get_language_batch(self, words: List[str]) -> List[List[str]]:
         result = []
         for iso in self.get_language_iso_batch(words):
-            result.append(self.languages.get(iso, ["Другой", "392"]))
+            result.append(self.get_language_by_iso(iso))
         return result
 
     def get_language(self, word: str) -> List[str]:
-        return self.languages.get(self.get_language_iso(word), ["Другой", "392"])
+        return self.get_language_by_iso(self.get_language_iso(word))
+
+    def get_language_by_iso(self, iso: str) -> List[str]:
+        return self.languages.get(iso, self.default_language)
