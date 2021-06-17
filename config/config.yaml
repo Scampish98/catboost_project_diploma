@@ -3,16 +3,15 @@ catboost_params:
   learning_rate: 0.1
   loss_function: MultiClass
   task_type: CPU
-model_version: 1
-number_words_after: 6
-number_words_before: 6
+model_version: 2
+number_words_after: 0
+number_words_before: 0
 refit_model: false
 logging_level: stats
 smart_split: true
 use_calculated_parameters: true
-use_weights: false
-calculated_parameters_weight: none
-use_initial_form: true
+use_initial_form: false
+use_true_initial_form: false
 lemmer_type: smalt_stemmer
 excluded_attributes:
   - 109

@@ -23,6 +23,7 @@ from catboost import CatBoost, CatBoostClassifier, CatBoostRegressor
 from ..config import Config
 from ..dataframe import Dataframe
 from ..language_detector import LanguageDetector
+from ..lemmers import get_initial_form
 from ..logging import create_logger, LoggedClass, LOGGING_LEVELS
 
 
@@ -87,6 +88,9 @@ class Model(LoggedClass, abc.ABC):
     def predict_from_data(self, input_data: Dataframe) -> Dataframe:
         pass
 
+    def predict_initial_form(self, words: List[str]) -> List[str]:
+        return [get_initial_form(word, self.config.lemmer_type) for word in words]
+
     # @staticmethod
     def predict(self, params_data: Dataframe, trained_model: CatBoost) -> Iterator[str]:
         self._logger.debug("Predict params_data: %s", params_data)
@@ -103,7 +107,17 @@ class Model(LoggedClass, abc.ABC):
             for name, value in self.default_values.items():
                 additional_data[name] = [value] * total_len
 
-        for additional_data_name in ["word_id", "sentence_id", "paragraph_id"]:
+        if not self.config.use_initial_form:
+            additional_data["initial_form"] = list(data["initial_form"])
+
+        for additional_data_name in [
+            "text_id",
+            "chapter_id",
+            "word_id",
+            "sentence_id",
+            "paragraph_id",
+            "true_part_of_speech",
+        ]:
             try:
                 additional_data[additional_data_name] = list(data[additional_data_name])
             except Exception as e:
@@ -142,14 +156,6 @@ class Model(LoggedClass, abc.ABC):
                 target_name_for_default=target_name_for_default,
             )
         return trained_model
-
-    def set_calculated_parameters_weight(self, data: Dataframe) -> None:
-        if data is None or data.weights is None:
-            return
-        params = self.get_params()
-        for name in data.names:
-            if name not in params:
-                data.weights[data.name_ids[name]] = self.calculated_parameters_weight
 
     def fit(
         self,
@@ -197,7 +203,6 @@ class Model(LoggedClass, abc.ABC):
             size=len(result),
             data=zip(*result),
             names=data.names,
-            weights=data.weights,
             name_ids=data.name_ids,
             logging_level=self.logging_level,
         )
@@ -232,7 +237,7 @@ class Model(LoggedClass, abc.ABC):
         return data.get_rows(linguistic), non_linguistic, ["1"]
 
     def _check_linguistic(self, word: str) -> bool:
-        return word.replace("'", "").replace("-", "").isalpha()
+        return word.replace("'", "").replace("-", "").replace("–", "").isalnum()
 
     def split_by_language(
         self, data: Dataframe
@@ -256,6 +261,8 @@ class Model(LoggedClass, abc.ABC):
 
     @staticmethod
     def split(data: Dataframe, target_name: str) -> Tuple[Dataframe, Dataframe]:
+        random.seed(target_name)
+
         train_ids = set()
         validate_ids = set()
         value_ids = defaultdict(list)
@@ -326,10 +333,6 @@ class Model(LoggedClass, abc.ABC):
     ) -> MutableMapping[str, Any]:
         catboost_params = self.config.catboost_params.copy()
         catboost_params["logging_level"] = LOGGING_LEVELS[self.logging_level].catboost
-        if data is not None and self.use_weights:
-            catboost_params["feature_weights"] = {
-                name: data.weights[index] for name, index in data.name_ids.items()
-            }
         return catboost_params
 
     def get_params(self) -> List[str]:
@@ -356,12 +359,8 @@ class Model(LoggedClass, abc.ABC):
         return self.config.use_calculated_parameters
 
     @property
-    def use_weights(self):
-        return self.config.use_weights
-
-    @property
-    def calculated_parameters_weight(self) -> Optional[float]:
-        return self.config.calculated_parameters_weight
+    def use_true_initial_form(self) -> Optional[float]:
+        return self.config.use_true_initial_form
 
     def __str__(self) -> str:
         model_data = self.as_json()
@@ -378,7 +377,6 @@ class Model(LoggedClass, abc.ABC):
             file_path=file_path,
             delimiter=delimiter,
             with_names=with_names,
-            with_weights=self.use_weights,
             logging_level=self.logging_level,
         )
 

@@ -37,8 +37,6 @@ class BaseSequentialLearningModel(Model, abc.ABC):  # type: ignore
         self._logger.debug("validation_data load finished!")
         train_data = self.clean_excluded(train_data)
         validation_data = self.clean_excluded(validation_data)
-        self.set_calculated_parameters_weight(train_data)
-        self.set_calculated_parameters_weight(validation_data)
 
         non_trained_names = self._get_non_trained_names()
         params = self.get_params()
@@ -78,21 +76,23 @@ class BaseSequentialLearningModel(Model, abc.ABC):  # type: ignore
                 params.append(name)
 
     def _get_non_trained_names(self) -> List[str]:
-        names = ["WORD", "initial_form", "word_id", "sentence_id", "paragraph_id"]
+        names = ["WORD", "initial_form", "true_part_of_speech"]
         for i in range(1, 6):
             names += [f"word_{i}", f"word_{-i}"]
-        names += ["word_id", "sentence_id", "paragraph_id"]
+        names += ["word_id", "sentence_id", "paragraph_id", "text_id", "chapter_id"]
         names += [str(attribute) for attribute in self.config.excluded_attributes]
         return names
 
     def predict_from_data(self, data: Dataframe) -> Dataframe:
         params = self.get_params()
+        if not self.use_true_initial_form:
+            data["initial_form"] = self.predict_initial_form(data["WORD"])
         russian, other, additional_params = self.split_by_heuristics(data)
-
         additional_data_rus = self.init_additional_data(russian)
-        other.update(self.init_additional_data(other))
+        additional_data_other = self.init_additional_data(other)
         russian = russian[params]
         other = other[params + additional_params]
+        other.update(additional_data_other)
 
         for name in self.completed_models:
             self._logger.info("Start predict by model %s", name)

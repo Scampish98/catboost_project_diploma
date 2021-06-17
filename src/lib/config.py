@@ -8,8 +8,6 @@ from .logging import create_logger, LoggedClass
 
 
 class Config(LoggedClass):
-    default_calculated_parameters_weight: float = 0.75
-
     def __init__(
         self,
         iterations: int = 100,
@@ -19,22 +17,16 @@ class Config(LoggedClass):
         number_words_before: int = 5,
         number_words_after: int = 5,
         use_initial_form: bool = True,
+        use_true_initial_form: bool = False,
         smart_split: bool = True,
         model_version: int = 0,
         use_calculated_parameters: bool = True,
-        use_weights: bool = False,
-        calculated_parameters_weight: Optional[float] = None,
         refit_model: bool = False,
         logging_level: str = "stats",
         lemmer_type: str = "smalt_stemmer",
         excluded_attributes: Optional[List[int]] = None,
         excluded_attribute_values: Optional[List[int]] = None,
     ):
-        if all(
-            [use_calculated_parameters, use_weights, not calculated_parameters_weight]
-        ):
-            calculated_parameters_weight = self.default_calculated_parameters_weight
-
         super().__init__(logging_level)
         self.catboost_params = {
             "iterations": iterations,
@@ -45,11 +37,10 @@ class Config(LoggedClass):
         self.number_words_before = max(min(number_words_before, 20), 0)
         self.number_words_after = max(min(number_words_after, 20), 0)
         self.use_initial_form = use_initial_form
+        self.use_true_initial_form = use_true_initial_form
         self.smart_split = smart_split
         self.model_version = model_version
         self.use_calculated_parameters = use_calculated_parameters
-        self.use_weights = use_weights
-        self.calculated_parameters_weight = calculated_parameters_weight
         self.refit_model = refit_model
         self.logging_level = logging_level
         self.lemmer_type = lemmer_type
@@ -74,6 +65,7 @@ class Config(LoggedClass):
         key_data = self.as_json()
         key_data.pop("refit_model", None)
         key_data.pop("logging_level", None)
+        key_data.pop("use_true_initial_form", None)
         key_data.pop("_logger", None)
         return json.dumps(key_data, sort_keys=True)
 

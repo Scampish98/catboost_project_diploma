@@ -34,10 +34,12 @@ class Attribute:
         attribute_id: str,
         attribute_name: str,
         attribute_values: Mapping[str, AttributeValue],
+        vertices_to_nearest_leaf: int = 0,
     ):
         self.attribute_id = attribute_id
         self.attribute_name = attribute_name
         self.attribute_values = attribute_values
+        self.vertices_to_nearest_leaf = vertices_to_nearest_leaf
 
     def as_json(self) -> MutableMapping[str, Any]:
         return self.__dict__.copy()

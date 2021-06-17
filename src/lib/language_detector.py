@@ -6,7 +6,6 @@ from typing import List, Mapping
 from urllib.error import HTTPError
 
 from google_trans_new import google_translator
-from textblob import TextBlob
 
 from .logging import LoggedClass
 
@@ -32,10 +31,14 @@ class LanguageDetector(LoggedClass):
     def check_russian(self, word: str) -> bool:
         if self.old_signs.search(word) is not None:
             return True
-        russian_lettres = 0
+        russian_letters = 0
+        total = 0
         for char in word:
-            russian_lettres += 1 if self.russian.search(char) is not None else 0
-        return russian_lettres * 2 >= len(word)
+            if not char.isalpha():
+                continue
+            russian_letters += 1 if self.russian.search(char) is not None else 0
+            total += 1
+        return russian_letters * 2 >= total
 
     def get_language_iso_batch(self, words: List[str]) -> List[str]:
         result = []

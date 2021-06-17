@@ -5,7 +5,6 @@ from typing import Optional, List
 def filter_language(
     row: List[str],
     names: Optional[List[str]],
-    weights: Optional[List[float]],
     logging_level: str = "stats",
 ) -> bool:
     if not names or "WORD" not in names:
